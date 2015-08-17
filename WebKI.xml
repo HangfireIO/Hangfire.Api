@@ -47,11 +47,6 @@
     <HelpKINode Title="IStorageConnection.AnnounceServer Method " Url="html/M_Hangfire_Storage_IStorageConnection_AnnounceServer.htm" />
     <HelpKINode Title="JobStorageConnection.AnnounceServer Method " Url="html/M_Hangfire_Storage_JobStorageConnection_AnnounceServer.htm" />
   </HelpKINode>
-  <HelpKINode Title="AnonymousProperty property">
-    <HelpKINode Title="AspMvcActionAttribute.AnonymousProperty Property " Url="html/P_Hangfire_Annotations_AspMvcActionAttribute_AnonymousProperty.htm" />
-    <HelpKINode Title="AspMvcAreaAttribute.AnonymousProperty Property " Url="html/P_Hangfire_Annotations_AspMvcAreaAttribute_AnonymousProperty.htm" />
-    <HelpKINode Title="AspMvcControllerAttribute.AnonymousProperty Property " Url="html/P_Hangfire_Annotations_AspMvcControllerAttribute_AnonymousProperty.htm" />
-  </HelpKINode>
   <HelpKINode Title="AppBuilderExtensions class">
     <HelpKINode Title="AppBuilderExtensions Class" Url="html/T_Hangfire_AppBuilderExtensions.htm" />
     <HelpKINode Title="about AppBuilderExtensions class" Url="html/T_Hangfire_AppBuilderExtensions.htm" />
@@ -84,122 +79,6 @@
     <HelpKINode Title="InvocationData.Arguments Property " Url="html/P_Hangfire_Storage_InvocationData_Arguments.htm" />
     <HelpKINode Title="Job.Arguments Property " Url="html/P_Hangfire_Common_Job_Arguments.htm" />
   </HelpKINode>
-  <HelpKINode Title="AspMvcActionAttribute class">
-    <HelpKINode Title="AspMvcActionAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcActionAttribute.htm" />
-    <HelpKINode Title="about AspMvcActionAttribute class" Url="html/T_Hangfire_Annotations_AspMvcActionAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Annotations_AspMvcActionAttribute__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Annotations_AspMvcActionAttribute.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcActionAttribute.AnonymousProperty property" Url="html/P_Hangfire_Annotations_AspMvcActionAttribute_AnonymousProperty.htm" />
-  <HelpKINode Title="AspMvcActionAttribute.AspMvcActionAttribute constructor" Url="html/Overload_Hangfire_Annotations_AspMvcActionAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcActionSelectorAttribute class">
-    <HelpKINode Title="AspMvcActionSelectorAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcActionSelectorAttribute.htm" />
-    <HelpKINode Title="about AspMvcActionSelectorAttribute class" Url="html/T_Hangfire_Annotations_AspMvcActionSelectorAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcActionSelectorAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcActionSelectorAttribute.AspMvcActionSelectorAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcActionSelectorAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcAreaAttribute class">
-    <HelpKINode Title="AspMvcAreaAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcAreaAttribute.htm" />
-    <HelpKINode Title="about AspMvcAreaAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Annotations_AspMvcAreaAttribute__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Annotations_AspMvcAreaAttribute.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcAreaAttribute.AnonymousProperty property" Url="html/P_Hangfire_Annotations_AspMvcAreaAttribute_AnonymousProperty.htm" />
-  <HelpKINode Title="AspMvcAreaAttribute.AspMvcAreaAttribute constructor" Url="html/Overload_Hangfire_Annotations_AspMvcAreaAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute class">
-    <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcAreaMasterLocationFormatAttribute.htm" />
-    <HelpKINode Title="about AspMvcAreaMasterLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaMasterLocationFormatAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcAreaMasterLocationFormatAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcAreaMasterLocationFormatAttribute.AspMvcAreaMasterLocationFormatAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcAreaMasterLocationFormatAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute class">
-    <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcAreaPartialViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="about AspMvcAreaPartialViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaPartialViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcAreaPartialViewLocationFormatAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcAreaPartialViewLocationFormatAttribute.AspMvcAreaPartialViewLocationFormatAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcAreaPartialViewLocationFormatAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute class">
-    <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcAreaViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="about AspMvcAreaViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcAreaViewLocationFormatAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcAreaViewLocationFormatAttribute.AspMvcAreaViewLocationFormatAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcAreaViewLocationFormatAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcControllerAttribute class">
-    <HelpKINode Title="AspMvcControllerAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcControllerAttribute.htm" />
-    <HelpKINode Title="about AspMvcControllerAttribute class" Url="html/T_Hangfire_Annotations_AspMvcControllerAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Annotations_AspMvcControllerAttribute__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Annotations_AspMvcControllerAttribute.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcControllerAttribute.AnonymousProperty property" Url="html/P_Hangfire_Annotations_AspMvcControllerAttribute_AnonymousProperty.htm" />
-  <HelpKINode Title="AspMvcControllerAttribute.AspMvcControllerAttribute constructor" Url="html/Overload_Hangfire_Annotations_AspMvcControllerAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcDisplayTemplateAttribute class">
-    <HelpKINode Title="AspMvcDisplayTemplateAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcDisplayTemplateAttribute.htm" />
-    <HelpKINode Title="about AspMvcDisplayTemplateAttribute class" Url="html/T_Hangfire_Annotations_AspMvcDisplayTemplateAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcDisplayTemplateAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcDisplayTemplateAttribute.AspMvcDisplayTemplateAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcDisplayTemplateAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcEditorTemplateAttribute class">
-    <HelpKINode Title="AspMvcEditorTemplateAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcEditorTemplateAttribute.htm" />
-    <HelpKINode Title="about AspMvcEditorTemplateAttribute class" Url="html/T_Hangfire_Annotations_AspMvcEditorTemplateAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcEditorTemplateAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcEditorTemplateAttribute.AspMvcEditorTemplateAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcEditorTemplateAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcMasterAttribute class">
-    <HelpKINode Title="AspMvcMasterAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcMasterAttribute.htm" />
-    <HelpKINode Title="about AspMvcMasterAttribute class" Url="html/T_Hangfire_Annotations_AspMvcMasterAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcMasterAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcMasterAttribute.AspMvcMasterAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcMasterAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcMasterLocationFormatAttribute class">
-    <HelpKINode Title="AspMvcMasterLocationFormatAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcMasterLocationFormatAttribute.htm" />
-    <HelpKINode Title="about AspMvcMasterLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcMasterLocationFormatAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcMasterLocationFormatAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcMasterLocationFormatAttribute.AspMvcMasterLocationFormatAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcMasterLocationFormatAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcModelTypeAttribute class">
-    <HelpKINode Title="AspMvcModelTypeAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcModelTypeAttribute.htm" />
-    <HelpKINode Title="about AspMvcModelTypeAttribute class" Url="html/T_Hangfire_Annotations_AspMvcModelTypeAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcModelTypeAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcModelTypeAttribute.AspMvcModelTypeAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcModelTypeAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcPartialViewAttribute class">
-    <HelpKINode Title="AspMvcPartialViewAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcPartialViewAttribute.htm" />
-    <HelpKINode Title="about AspMvcPartialViewAttribute class" Url="html/T_Hangfire_Annotations_AspMvcPartialViewAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcPartialViewAttribute__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Annotations_AspMvcPartialViewAttribute.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcPartialViewAttribute.AspMvcPartialViewAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcPartialViewAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute class">
-    <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcPartialViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="about AspMvcPartialViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcPartialViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcPartialViewLocationFormatAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcPartialViewLocationFormatAttribute.AspMvcPartialViewLocationFormatAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcPartialViewLocationFormatAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcSupressViewErrorAttribute class">
-    <HelpKINode Title="AspMvcSupressViewErrorAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcSupressViewErrorAttribute.htm" />
-    <HelpKINode Title="about AspMvcSupressViewErrorAttribute class" Url="html/T_Hangfire_Annotations_AspMvcSupressViewErrorAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcSupressViewErrorAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcSupressViewErrorAttribute.AspMvcSupressViewErrorAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcSupressViewErrorAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcTemplateAttribute class">
-    <HelpKINode Title="AspMvcTemplateAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcTemplateAttribute.htm" />
-    <HelpKINode Title="about AspMvcTemplateAttribute class" Url="html/T_Hangfire_Annotations_AspMvcTemplateAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcTemplateAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcTemplateAttribute.AspMvcTemplateAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcTemplateAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcViewAttribute class">
-    <HelpKINode Title="AspMvcViewAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcViewAttribute.htm" />
-    <HelpKINode Title="about AspMvcViewAttribute class" Url="html/T_Hangfire_Annotations_AspMvcViewAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcViewAttribute__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Annotations_AspMvcViewAttribute.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcViewAttribute.AspMvcViewAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcViewAttribute__ctor.htm" />
-  <HelpKINode Title="AspMvcViewLocationFormatAttribute class">
-    <HelpKINode Title="AspMvcViewLocationFormatAttribute Class" Url="html/T_Hangfire_Annotations_AspMvcViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="about AspMvcViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcViewLocationFormatAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_AspMvcViewLocationFormatAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="AspMvcViewLocationFormatAttribute.AspMvcViewLocationFormatAttribute constructor" Url="html/M_Hangfire_Annotations_AspMvcViewLocationFormatAttribute__ctor.htm" />
   <HelpKINode Title="Assign enumeration member" Url="html/T_Hangfire_Annotations_ImplicitUseKindFlags.htm" />
   <HelpKINode Title="Attempts property" Url="html/P_Hangfire_AutomaticRetryAttribute_Attempts.htm" />
   <HelpKINode Title="AttemptsExceededAction enumeration" Url="html/T_Hangfire_AttemptsExceededAction.htm" />
@@ -308,6 +187,7 @@
     <HelpKINode Title="BackgroundProcessContext Class" Url="html/T_Hangfire_Server_BackgroundProcessContext.htm" />
     <HelpKINode Title="about BackgroundProcessContext class" Url="html/T_Hangfire_Server_BackgroundProcessContext.htm" />
     <HelpKINode Title="constructor" Url="html/M_Hangfire_Server_BackgroundProcessContext__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_BackgroundProcessContext.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Server_BackgroundProcessContext.htm" />
   </HelpKINode>
   <HelpKINode Title="BackgroundProcessContext.BackgroundProcessContext constructor" Url="html/M_Hangfire_Server_BackgroundProcessContext__ctor.htm" />
@@ -315,6 +195,13 @@
   <HelpKINode Title="BackgroundProcessContext.Properties property" Url="html/P_Hangfire_Server_BackgroundProcessContext_Properties.htm" />
   <HelpKINode Title="BackgroundProcessContext.ServerId property" Url="html/P_Hangfire_Server_BackgroundProcessContext_ServerId.htm" />
   <HelpKINode Title="BackgroundProcessContext.Storage property" Url="html/P_Hangfire_Server_BackgroundProcessContext_Storage.htm" />
+  <HelpKINode Title="BackgroundProcessContextExtensions class">
+    <HelpKINode Title="BackgroundProcessContextExtensions Class" Url="html/T_Hangfire_Server_BackgroundProcessContextExtensions.htm" />
+    <HelpKINode Title="about BackgroundProcessContextExtensions class" Url="html/T_Hangfire_Server_BackgroundProcessContextExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_BackgroundProcessContextExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BackgroundProcessContextExtensions.Sleep method" Url="html/M_Hangfire_Server_BackgroundProcessContextExtensions_Sleep.htm" />
+  <HelpKINode Title="BackgroundProcessContextExtensions.SleepOrThrow method" Url="html/M_Hangfire_Server_BackgroundProcessContextExtensions_SleepOrThrow.htm" />
   <HelpKINode Title="BackgroundServer class">
     <HelpKINode Title="BackgroundServer Class" Url="html/T_Hangfire_Server_BackgroundServer.htm" />
     <HelpKINode Title="about BackgroundServer class" Url="html/T_Hangfire_Server_BackgroundServer.htm" />
@@ -329,7 +216,6 @@
   <HelpKINode Title="BackgroundServer.ShutdownTimeout property" Url="html/P_Hangfire_Server_BackgroundServer_ShutdownTimeout.htm" />
   <HelpKINode Title="BackgroundServer.ToString method" Url="html/M_Hangfire_Server_BackgroundServer_ToString.htm" />
   <HelpKINode Title="BasePageUrl property" Url="html/P_Hangfire_Dashboard_Pager_BasePageUrl.htm" />
-  <HelpKINode Title="BasePath property" Url="html/P_Hangfire_Annotations_PathReferenceAttribute_BasePath.htm" />
   <HelpKINode Title="BaseType property" Url="html/P_Hangfire_Annotations_BaseTypeRequiredAttribute_BaseType.htm" />
   <HelpKINode Title="BaseTypeRequiredAttribute class">
     <HelpKINode Title="BaseTypeRequiredAttribute Class" Url="html/T_Hangfire_Annotations_BaseTypeRequiredAttribute.htm" />
@@ -400,9 +286,6 @@
   <HelpKINode Title="ClientExceptionContext.Exception property" Url="html/P_Hangfire_Client_ClientExceptionContext_Exception.htm" />
   <HelpKINode Title="ClientExceptionContext.ExceptionHandled property" Url="html/P_Hangfire_Client_ClientExceptionContext_ExceptionHandled.htm" />
   <HelpKINode Title="Colors property" Url="html/P_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_Colors.htm" />
-  <HelpKINode Title="ColouredConsoleLogger class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger.htm" />
-  </HelpKINode>
   <HelpKINode Title="ColouredConsoleLogProvider class">
     <HelpKINode Title="ColouredConsoleLogProvider Class" Url="html/T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider.htm" />
     <HelpKINode Title="about ColouredConsoleLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider.htm" />
@@ -411,14 +294,6 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider.htm" />
   </HelpKINode>
   <HelpKINode Title="ColouredConsoleLogProvider.Colors property" Url="html/P_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_Colors.htm" />
-  <HelpKINode Title="ColouredConsoleLogProvider.ColouredConsoleLogger class">
-    <HelpKINode Title="ColouredConsoleLogProvider.ColouredConsoleLogger Class" Url="html/T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger.htm" />
-    <HelpKINode Title="about ColouredConsoleLogProvider.ColouredConsoleLogger class" Url="html/T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ColouredConsoleLogProvider.ColouredConsoleLogger.ColouredConsoleLogger constructor" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger__ctor.htm" />
-  <HelpKINode Title="ColouredConsoleLogProvider.ColouredConsoleLogger.Log method" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger_Log.htm" />
-  <HelpKINode Title="ColouredConsoleLogProvider.ColouredConsoleLogger.Write method" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger_Write.htm" />
   <HelpKINode Title="ColouredConsoleLogProvider.ColouredConsoleLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider__ctor.htm" />
   <HelpKINode Title="ColouredConsoleLogProvider.DefaultMessageFormatter method" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_DefaultMessageFormatter.htm" />
   <HelpKINode Title="ColouredConsoleLogProvider.GetLogger method" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_GetLogger.htm" />
@@ -466,7 +341,6 @@
     <HelpKINode Title="BackgroundJobClientExtensions.Create Method " Url="html/Overload_Hangfire_BackgroundJobClientExtensions_Create.htm" />
     <HelpKINode Title="IBackgroundJobClient.Create Method " Url="html/M_Hangfire_IBackgroundJobClient_Create.htm" />
     <HelpKINode Title="IStateMachineFactory.Create Method " Url="html/M_Hangfire_States_IStateMachineFactory_Create.htm" />
-    <HelpKINode Title="StateMachineFactory.Create Method " Url="html/M_Hangfire_States_StateMachineFactory_Create.htm" />
   </HelpKINode>
   <HelpKINode Title="CreateContext class">
     <HelpKINode Title="CreateContext Class" Url="html/T_Hangfire_Client_CreateContext.htm" />
@@ -622,7 +496,6 @@
     <HelpKINode Title="ImplicitUseTargetFlags Enumeration" Url="html/T_Hangfire_Annotations_ImplicitUseTargetFlags.htm" />
     <HelpKINode Title="MetricStyle Enumeration" Url="html/T_Hangfire_Dashboard_MetricStyle.htm" />
   </HelpKINode>
-  <HelpKINode Title="Default field" Url="html/F_Hangfire_States_StateMachineFactory_Default.htm" />
   <HelpKINode Title="DefaultHeartbeatInterval field" Url="html/F_Hangfire_Server_ServerHeartbeat_DefaultHeartbeatInterval.htm" />
   <HelpKINode Title="DefaultJobCreationProcess class">
     <HelpKINode Title="DefaultJobCreationProcess Class" Url="html/T_Hangfire_Client_DefaultJobCreationProcess.htm" />
@@ -743,9 +616,6 @@
   <HelpKINode Title="ElectStateContext.SetJobParameter&lt;T&gt; method" Url="html/M_Hangfire_States_ElectStateContext_SetJobParameter__1.htm" />
   <HelpKINode Title="ElectStateContext.StateMachine property" Url="html/P_Hangfire_States_ElectStateContext_StateMachine.htm" />
   <HelpKINode Title="ElectStateContext.TraversedStates property" Url="html/P_Hangfire_States_ElectStateContext_TraversedStates.htm" />
-  <HelpKINode Title="ElmahLog class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog.htm" />
-  </HelpKINode>
   <HelpKINode Title="ElmahLogProvider class">
     <HelpKINode Title="ElmahLogProvider Class" Url="html/T_Hangfire_Logging_LogProviders_ElmahLogProvider.htm" />
     <HelpKINode Title="about ElmahLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_ElmahLogProvider.htm" />
@@ -753,13 +623,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_ElmahLogProvider.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Logging_LogProviders_ElmahLogProvider.htm" />
   </HelpKINode>
-  <HelpKINode Title="ElmahLogProvider.ElmahLog class">
-    <HelpKINode Title="ElmahLogProvider.ElmahLog Class" Url="html/T_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog.htm" />
-    <HelpKINode Title="about ElmahLogProvider.ElmahLog class" Url="html/T_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ElmahLogProvider.ElmahLog.ElmahLog constructor" Url="html/M_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog__ctor.htm" />
-  <HelpKINode Title="ElmahLogProvider.ElmahLog.Log method" Url="html/M_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog_Log.htm" />
   <HelpKINode Title="ElmahLogProvider.ElmahLogProvider constructor" Url="html/Overload_Hangfire_Logging_LogProviders_ElmahLogProvider__ctor.htm" />
   <HelpKINode Title="ElmahLogProvider.GetLogger method" Url="html/M_Hangfire_Logging_LogProviders_ElmahLogProvider_GetLogger.htm" />
   <HelpKINode Title="ElmahLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_ElmahLogProvider_IsLoggerAvailable.htm" />
@@ -811,9 +674,6 @@
   <HelpKINode Title="EnqueuedState.SerializeData method" Url="html/M_Hangfire_States_EnqueuedState_SerializeData.htm" />
   <HelpKINode Title="EnqueuedState.StateName field" Url="html/F_Hangfire_States_EnqueuedState_StateName.htm" />
   <HelpKINode Title="EnsureLoaded method" Url="html/M_Hangfire_Storage_JobData_EnsureLoaded.htm" />
-  <HelpKINode Title="EntLibLogger class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger.htm" />
-  </HelpKINode>
   <HelpKINode Title="EntLibLogProvider class">
     <HelpKINode Title="EntLibLogProvider Class" Url="html/T_Hangfire_Logging_LogProviders_EntLibLogProvider.htm" />
     <HelpKINode Title="about EntLibLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_EntLibLogProvider.htm" />
@@ -821,12 +681,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_EntLibLogProvider.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Logging_LogProviders_EntLibLogProvider.htm" />
   </HelpKINode>
-  <HelpKINode Title="EntLibLogProvider.EntLibLogger class">
-    <HelpKINode Title="EntLibLogProvider.EntLibLogger Class" Url="html/T_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger.htm" />
-    <HelpKINode Title="about EntLibLogProvider.EntLibLogger class" Url="html/T_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger.htm" />
-  </HelpKINode>
-  <HelpKINode Title="EntLibLogProvider.EntLibLogger.Log method" Url="html/M_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger_Log.htm" />
-  <HelpKINode Title="EntLibLogProvider.EntLibLogger.LogException method" Url="html/M_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger_LogException.htm" />
   <HelpKINode Title="EntLibLogProvider.EntLibLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_EntLibLogProvider__ctor.htm" />
   <HelpKINode Title="EntLibLogProvider.GetLogger method" Url="html/M_Hangfire_Logging_LogProviders_EntLibLogProvider_GetLogger.htm" />
   <HelpKINode Title="EntLibLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_EntLibLogProvider_IsLoggerAvailable.htm" />
@@ -1074,24 +928,6 @@
   <HelpKINode Title="Handlers property" Url="html/P_Hangfire_GlobalStateHandlers_Handlers.htm" />
   <HelpKINode Title="Hangfire namespace" Url="html/N_Hangfire.htm" />
   <HelpKINode Title="Hangfire.Annotations namespace" Url="html/N_Hangfire_Annotations.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcActionAttribute class" Url="html/T_Hangfire_Annotations_AspMvcActionAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcActionSelectorAttribute class" Url="html/T_Hangfire_Annotations_AspMvcActionSelectorAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcAreaAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcAreaMasterLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaMasterLocationFormatAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcAreaPartialViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaPartialViewLocationFormatAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcAreaViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcAreaViewLocationFormatAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcControllerAttribute class" Url="html/T_Hangfire_Annotations_AspMvcControllerAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcDisplayTemplateAttribute class" Url="html/T_Hangfire_Annotations_AspMvcDisplayTemplateAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcEditorTemplateAttribute class" Url="html/T_Hangfire_Annotations_AspMvcEditorTemplateAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcMasterAttribute class" Url="html/T_Hangfire_Annotations_AspMvcMasterAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcMasterLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcMasterLocationFormatAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcModelTypeAttribute class" Url="html/T_Hangfire_Annotations_AspMvcModelTypeAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcPartialViewAttribute class" Url="html/T_Hangfire_Annotations_AspMvcPartialViewAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcPartialViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcPartialViewLocationFormatAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcSupressViewErrorAttribute class" Url="html/T_Hangfire_Annotations_AspMvcSupressViewErrorAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcTemplateAttribute class" Url="html/T_Hangfire_Annotations_AspMvcTemplateAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcViewAttribute class" Url="html/T_Hangfire_Annotations_AspMvcViewAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.AspMvcViewLocationFormatAttribute class" Url="html/T_Hangfire_Annotations_AspMvcViewLocationFormatAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.BaseTypeRequiredAttribute class" Url="html/T_Hangfire_Annotations_BaseTypeRequiredAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.CanBeNullAttribute class" Url="html/T_Hangfire_Annotations_CanBeNullAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.CannotApplyEqualityOperatorAttribute class" Url="html/T_Hangfire_Annotations_CannotApplyEqualityOperatorAttribute.htm" />
@@ -1106,10 +942,8 @@
   <HelpKINode Title="Hangfire.Annotations.MeansImplicitUseAttribute class" Url="html/T_Hangfire_Annotations_MeansImplicitUseAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.NotifyPropertyChangedInvocatorAttribute class" Url="html/T_Hangfire_Annotations_NotifyPropertyChangedInvocatorAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.NotNullAttribute class" Url="html/T_Hangfire_Annotations_NotNullAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.PathReferenceAttribute class" Url="html/T_Hangfire_Annotations_PathReferenceAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.PublicAPIAttribute class" Url="html/T_Hangfire_Annotations_PublicAPIAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.PureAttribute class" Url="html/T_Hangfire_Annotations_PureAttribute.htm" />
-  <HelpKINode Title="Hangfire.Annotations.RazorSectionAttribute class" Url="html/T_Hangfire_Annotations_RazorSectionAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.StringFormatMethodAttribute class" Url="html/T_Hangfire_Annotations_StringFormatMethodAttribute.htm" />
   <HelpKINode Title="Hangfire.Annotations.UsedImplicitlyAttribute class" Url="html/T_Hangfire_Annotations_UsedImplicitlyAttribute.htm" />
   <HelpKINode Title="Hangfire.AppBuilderExtensions class" Url="html/T_Hangfire_AppBuilderExtensions.htm" />
@@ -1201,26 +1035,20 @@
   <HelpKINode Title="Hangfire.Logging.LogProvider class" Url="html/T_Hangfire_Logging_LogProvider.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders namespace" Url="html/N_Hangfire_Logging_LogProviders.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.ColouredConsoleLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider.htm" />
-  <HelpKINode Title="Hangfire.Logging.LogProviders.ColouredConsoleLogProvider.ColouredConsoleLogger class" Url="html/T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.ColouredConsoleLogProvider.MessageFormatterDelegate delegate" Url="html/T_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_MessageFormatterDelegate.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.ElmahLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_ElmahLogProvider.htm" />
-  <HelpKINode Title="Hangfire.Logging.LogProviders.ElmahLogProvider.ElmahLog class" Url="html/T_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.EntLibLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_EntLibLogProvider.htm" />
-  <HelpKINode Title="Hangfire.Logging.LogProviders.EntLibLogProvider.EntLibLogger class" Url="html/T_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.Log4NetLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_Log4NetLogProvider.htm" />
-  <HelpKINode Title="Hangfire.Logging.LogProviders.Log4NetLogProvider.Log4NetLogger class" Url="html/T_Hangfire_Logging_LogProviders_Log4NetLogProvider_Log4NetLogger.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.LoupeLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_LoupeLogProvider.htm" />
-  <HelpKINode Title="Hangfire.Logging.LogProviders.LoupeLogProvider.LoupeLogger class" Url="html/T_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.NLogLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_NLogLogProvider.htm" />
-  <HelpKINode Title="Hangfire.Logging.LogProviders.NLogLogProvider.NLogLogger class" Url="html/T_Hangfire_Logging_LogProviders_NLogLogProvider_NLogLogger.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.SerilogLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_SerilogLogProvider.htm" />
-  <HelpKINode Title="Hangfire.Logging.LogProviders.SerilogLogProvider.SerilogLogger class" Url="html/T_Hangfire_Logging_LogProviders_SerilogLogProvider_SerilogLogger.htm" />
   <HelpKINode Title="Hangfire.OwinBootstrapper class" Url="html/T_Hangfire_OwinBootstrapper.htm" />
   <HelpKINode Title="Hangfire.QueueAttribute class" Url="html/T_Hangfire_QueueAttribute.htm" />
   <HelpKINode Title="Hangfire.RecurringJob class" Url="html/T_Hangfire_RecurringJob.htm" />
   <HelpKINode Title="Hangfire.RecurringJobManager class" Url="html/T_Hangfire_RecurringJobManager.htm" />
   <HelpKINode Title="Hangfire.Server namespace" Url="html/N_Hangfire_Server.htm" />
   <HelpKINode Title="Hangfire.Server.BackgroundProcessContext class" Url="html/T_Hangfire_Server_BackgroundProcessContext.htm" />
+  <HelpKINode Title="Hangfire.Server.BackgroundProcessContextExtensions class" Url="html/T_Hangfire_Server_BackgroundProcessContextExtensions.htm" />
   <HelpKINode Title="Hangfire.Server.BackgroundServer class" Url="html/T_Hangfire_Server_BackgroundServer.htm" />
   <HelpKINode Title="Hangfire.Server.DefaultJobPerformanceProcess class" Url="html/T_Hangfire_Server_DefaultJobPerformanceProcess.htm" />
   <HelpKINode Title="Hangfire.Server.IBackgroundProcess interface" Url="html/T_Hangfire_Server_IBackgroundProcess.htm" />
@@ -1266,7 +1094,6 @@
   <HelpKINode Title="Hangfire.States.StateContext class" Url="html/T_Hangfire_States_StateContext.htm" />
   <HelpKINode Title="Hangfire.States.StateHandlerCollection class" Url="html/T_Hangfire_States_StateHandlerCollection.htm" />
   <HelpKINode Title="Hangfire.States.StateMachineExtensions class" Url="html/T_Hangfire_States_StateMachineExtensions.htm" />
-  <HelpKINode Title="Hangfire.States.StateMachineFactory class" Url="html/T_Hangfire_States_StateMachineFactory.htm" />
   <HelpKINode Title="Hangfire.States.StateMachineFactoryFactory class" Url="html/T_Hangfire_States_StateMachineFactoryFactory.htm" />
   <HelpKINode Title="Hangfire.States.SucceededState class" Url="html/T_Hangfire_States_SucceededState.htm" />
   <HelpKINode Title="Hangfire.StatisticsHistoryAttribute class" Url="html/T_Hangfire_StatisticsHistoryAttribute.htm" />
@@ -2084,19 +1911,7 @@
   </HelpKINode>
   <HelpKINode Title="LocalRequestsOnlyAuthorizationFilter.Authorize method" Url="html/M_Hangfire_Dashboard_LocalRequestsOnlyAuthorizationFilter_Authorize.htm" />
   <HelpKINode Title="LocalRequestsOnlyAuthorizationFilter.LocalRequestsOnlyAuthorizationFilter constructor" Url="html/M_Hangfire_Dashboard_LocalRequestsOnlyAuthorizationFilter__ctor.htm" />
-  <HelpKINode Title="Log method">
-    <HelpKINode Title="ColouredConsoleLogProvider.ColouredConsoleLogger.Log Method " Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger_Log.htm" />
-    <HelpKINode Title="ElmahLogProvider.ElmahLog.Log Method " Url="html/M_Hangfire_Logging_LogProviders_ElmahLogProvider_ElmahLog_Log.htm" />
-    <HelpKINode Title="EntLibLogProvider.EntLibLogger.Log Method " Url="html/M_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger_Log.htm" />
-    <HelpKINode Title="ILog.Log Method " Url="html/M_Hangfire_Logging_ILog_Log.htm" />
-    <HelpKINode Title="Log4NetLogProvider.Log4NetLogger.Log Method " Url="html/M_Hangfire_Logging_LogProviders_Log4NetLogProvider_Log4NetLogger_Log.htm" />
-    <HelpKINode Title="LoupeLogProvider.LoupeLogger.Log Method " Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger_Log.htm" />
-    <HelpKINode Title="NLogLogProvider.NLogLogger.Log Method " Url="html/M_Hangfire_Logging_LogProviders_NLogLogProvider_NLogLogger_Log.htm" />
-    <HelpKINode Title="SerilogLogProvider.SerilogLogger.Log Method " Url="html/M_Hangfire_Logging_LogProviders_SerilogLogProvider_SerilogLogger_Log.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Log4NetLogger class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_Log4NetLogProvider_Log4NetLogger.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Log method" Url="html/M_Hangfire_Logging_ILog_Log.htm" />
   <HelpKINode Title="Log4NetLogProvider class">
     <HelpKINode Title="Log4NetLogProvider Class" Url="html/T_Hangfire_Logging_LogProviders_Log4NetLogProvider.htm" />
     <HelpKINode Title="about Log4NetLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_Log4NetLogProvider.htm" />
@@ -2106,15 +1921,9 @@
   </HelpKINode>
   <HelpKINode Title="Log4NetLogProvider.GetLogger method" Url="html/M_Hangfire_Logging_LogProviders_Log4NetLogProvider_GetLogger.htm" />
   <HelpKINode Title="Log4NetLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_Log4NetLogProvider_IsLoggerAvailable.htm" />
-  <HelpKINode Title="Log4NetLogProvider.Log4NetLogger class">
-    <HelpKINode Title="Log4NetLogProvider.Log4NetLogger Class" Url="html/T_Hangfire_Logging_LogProviders_Log4NetLogProvider_Log4NetLogger.htm" />
-    <HelpKINode Title="about Log4NetLogProvider.Log4NetLogger class" Url="html/T_Hangfire_Logging_LogProviders_Log4NetLogProvider_Log4NetLogger.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Log4NetLogProvider.Log4NetLogger.Log method" Url="html/M_Hangfire_Logging_LogProviders_Log4NetLogProvider_Log4NetLogger_Log.htm" />
   <HelpKINode Title="Log4NetLogProvider.Log4NetLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_Log4NetLogProvider__ctor.htm" />
   <HelpKINode Title="Log4NetLogProvider.ProviderIsAvailableOverride property" Url="html/P_Hangfire_Logging_LogProviders_Log4NetLogProvider_ProviderIsAvailableOverride.htm" />
   <HelpKINode Title="LogEvents property" Url="html/P_Hangfire_AutomaticRetryAttribute_LogEvents.htm" />
-  <HelpKINode Title="LogException method" Url="html/M_Hangfire_Logging_LogProviders_EntLibLogProvider_EntLibLogger_LogException.htm" />
   <HelpKINode Title="LogExtensions class">
     <HelpKINode Title="LogExtensions Class" Url="html/T_Hangfire_Logging_LogExtensions.htm" />
     <HelpKINode Title="about LogExtensions class" Url="html/T_Hangfire_Logging_LogExtensions.htm" />
@@ -2155,9 +1964,6 @@
   <HelpKINode Title="LogProvider.GetCurrentClassLogger method" Url="html/M_Hangfire_Logging_LogProvider_GetCurrentClassLogger.htm" />
   <HelpKINode Title="LogProvider.GetLogger method" Url="html/Overload_Hangfire_Logging_LogProvider_GetLogger.htm" />
   <HelpKINode Title="LogProvider.SetCurrentLogProvider method" Url="html/M_Hangfire_Logging_LogProvider_SetCurrentLogProvider.htm" />
-  <HelpKINode Title="LoupeLogger class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger.htm" />
-  </HelpKINode>
   <HelpKINode Title="LoupeLogProvider class">
     <HelpKINode Title="LoupeLogProvider Class" Url="html/T_Hangfire_Logging_LogProviders_LoupeLogProvider.htm" />
     <HelpKINode Title="about LoupeLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_LoupeLogProvider.htm" />
@@ -2167,12 +1973,6 @@
   </HelpKINode>
   <HelpKINode Title="LoupeLogProvider.GetLogger method" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider_GetLogger.htm" />
   <HelpKINode Title="LoupeLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider_IsLoggerAvailable.htm" />
-  <HelpKINode Title="LoupeLogProvider.LoupeLogger class">
-    <HelpKINode Title="LoupeLogProvider.LoupeLogger Class" Url="html/T_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger.htm" />
-    <HelpKINode Title="about LoupeLogProvider.LoupeLogger class" Url="html/T_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger.htm" />
-  </HelpKINode>
-  <HelpKINode Title="LoupeLogProvider.LoupeLogger.Log method" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger_Log.htm" />
-  <HelpKINode Title="LoupeLogProvider.LoupeLogger.ToLogMessageSeverity method" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger_ToLogMessageSeverity.htm" />
   <HelpKINode Title="LoupeLogProvider.LoupeLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider__ctor.htm" />
   <HelpKINode Title="LoupeLogProvider.ProviderIsAvailableOverride property" Url="html/P_Hangfire_Logging_LogProviders_LoupeLogProvider_ProviderIsAvailableOverride.htm" />
   <HelpKINode Title="MapHangfireDashboard method" Url="html/Overload_Hangfire_Dashboard_DashboardOwinExtensions_MapHangfireDashboard.htm" />
@@ -2270,9 +2070,6 @@
   <HelpKINode Title="NextExecution property" Url="html/P_Hangfire_Storage_RecurringJobDto_NextExecution.htm" />
   <HelpKINode Title="NextPage enumeration member" Url="html/T_Hangfire_Dashboard_Pager_ItemType.htm" />
   <HelpKINode Title="NextState property" Url="html/P_Hangfire_States_AwaitingState_NextState.htm" />
-  <HelpKINode Title="NLogLogger class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_NLogLogProvider_NLogLogger.htm" />
-  </HelpKINode>
   <HelpKINode Title="NLogLogProvider class">
     <HelpKINode Title="NLogLogProvider Class" Url="html/T_Hangfire_Logging_LogProviders_NLogLogProvider.htm" />
     <HelpKINode Title="about NLogLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_NLogLogProvider.htm" />
@@ -2282,11 +2079,6 @@
   </HelpKINode>
   <HelpKINode Title="NLogLogProvider.GetLogger method" Url="html/M_Hangfire_Logging_LogProviders_NLogLogProvider_GetLogger.htm" />
   <HelpKINode Title="NLogLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_NLogLogProvider_IsLoggerAvailable.htm" />
-  <HelpKINode Title="NLogLogProvider.NLogLogger class">
-    <HelpKINode Title="NLogLogProvider.NLogLogger Class" Url="html/T_Hangfire_Logging_LogProviders_NLogLogProvider_NLogLogger.htm" />
-    <HelpKINode Title="about NLogLogProvider.NLogLogger class" Url="html/T_Hangfire_Logging_LogProviders_NLogLogProvider_NLogLogger.htm" />
-  </HelpKINode>
-  <HelpKINode Title="NLogLogProvider.NLogLogger.Log method" Url="html/M_Hangfire_Logging_LogProviders_NLogLogProvider_NLogLogger_Log.htm" />
   <HelpKINode Title="NLogLogProvider.NLogLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_NLogLogProvider__ctor.htm" />
   <HelpKINode Title="NLogLogProvider.ProviderIsAvailableOverride property" Url="html/P_Hangfire_Logging_LogProviders_NLogLogProvider_ProviderIsAvailableOverride.htm" />
   <HelpKINode Title="NonEscapedString class">
@@ -2402,14 +2194,6 @@
   <HelpKINode Title="Parameters property" Url="html/P_Hangfire_Client_CreatingContext_Parameters.htm" />
   <HelpKINode Title="ParameterTypes property" Url="html/P_Hangfire_Storage_InvocationData_ParameterTypes.htm" />
   <HelpKINode Title="ParentId property" Url="html/P_Hangfire_States_AwaitingState_ParentId.htm" />
-  <HelpKINode Title="PathReferenceAttribute class">
-    <HelpKINode Title="PathReferenceAttribute Class" Url="html/T_Hangfire_Annotations_PathReferenceAttribute.htm" />
-    <HelpKINode Title="about PathReferenceAttribute class" Url="html/T_Hangfire_Annotations_PathReferenceAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Annotations_PathReferenceAttribute__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Annotations_PathReferenceAttribute.htm" />
-  </HelpKINode>
-  <HelpKINode Title="PathReferenceAttribute.BasePath property" Url="html/P_Hangfire_Annotations_PathReferenceAttribute_BasePath.htm" />
-  <HelpKINode Title="PathReferenceAttribute.PathReferenceAttribute constructor" Url="html/Overload_Hangfire_Annotations_PathReferenceAttribute__ctor.htm" />
   <HelpKINode Title="Perform method" Url="html/M_Hangfire_Common_Job_Perform.htm" />
   <HelpKINode Title="PerformanceDuration property" Url="html/P_Hangfire_States_SucceededState_PerformanceDuration.htm" />
   <HelpKINode Title="PerformanceProcess property" Url="html/P_Hangfire_BackgroundJobServerOptions_PerformanceProcess.htm" />
@@ -2569,12 +2353,6 @@
   <HelpKINode Title="RazorPage.Storage property" Url="html/P_Hangfire_Dashboard_RazorPage_Storage.htm" />
   <HelpKINode Title="RazorPage.ToString method" Url="html/M_Hangfire_Dashboard_RazorPage_ToString.htm" />
   <HelpKINode Title="RazorPage.Url property" Url="html/P_Hangfire_Dashboard_RazorPage_Url.htm" />
-  <HelpKINode Title="RazorSectionAttribute class">
-    <HelpKINode Title="RazorSectionAttribute Class" Url="html/T_Hangfire_Annotations_RazorSectionAttribute.htm" />
-    <HelpKINode Title="about RazorSectionAttribute class" Url="html/T_Hangfire_Annotations_RazorSectionAttribute.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Annotations_RazorSectionAttribute__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RazorSectionAttribute.RazorSectionAttribute constructor" Url="html/M_Hangfire_Annotations_RazorSectionAttribute__ctor.htm" />
   <HelpKINode Title="Reason property">
     <HelpKINode Title="AwaitingState.Reason Property " Url="html/P_Hangfire_States_AwaitingState_Reason.htm" />
     <HelpKINode Title="DeletedState.Reason Property " Url="html/P_Hangfire_States_DeletedState_Reason.htm" />
@@ -2787,9 +2565,6 @@
     <HelpKINode Title="SucceededState.SerializeData Method " Url="html/M_Hangfire_States_SucceededState_SerializeData.htm" />
   </HelpKINode>
   <HelpKINode Title="SerializeDateTime method" Url="html/M_Hangfire_Common_JobHelper_SerializeDateTime.htm" />
-  <HelpKINode Title="SerilogLogger class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Logging_LogProviders_SerilogLogProvider_SerilogLogger.htm" />
-  </HelpKINode>
   <HelpKINode Title="SerilogLogProvider class">
     <HelpKINode Title="SerilogLogProvider Class" Url="html/T_Hangfire_Logging_LogProviders_SerilogLogProvider.htm" />
     <HelpKINode Title="about SerilogLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_SerilogLogProvider.htm" />
@@ -2800,11 +2575,6 @@
   <HelpKINode Title="SerilogLogProvider.GetLogger method" Url="html/M_Hangfire_Logging_LogProviders_SerilogLogProvider_GetLogger.htm" />
   <HelpKINode Title="SerilogLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_SerilogLogProvider_IsLoggerAvailable.htm" />
   <HelpKINode Title="SerilogLogProvider.ProviderIsAvailableOverride property" Url="html/P_Hangfire_Logging_LogProviders_SerilogLogProvider_ProviderIsAvailableOverride.htm" />
-  <HelpKINode Title="SerilogLogProvider.SerilogLogger class">
-    <HelpKINode Title="SerilogLogProvider.SerilogLogger Class" Url="html/T_Hangfire_Logging_LogProviders_SerilogLogProvider_SerilogLogger.htm" />
-    <HelpKINode Title="about SerilogLogProvider.SerilogLogger class" Url="html/T_Hangfire_Logging_LogProviders_SerilogLogProvider_SerilogLogger.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SerilogLogProvider.SerilogLogger.Log method" Url="html/M_Hangfire_Logging_LogProviders_SerilogLogProvider_SerilogLogger_Log.htm" />
   <HelpKINode Title="SerilogLogProvider.SerilogLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_SerilogLogProvider__ctor.htm" />
   <HelpKINode Title="ServerContext class">
     <HelpKINode Title="ServerContext Class" Url="html/T_Hangfire_Server_ServerContext.htm" />
@@ -2911,6 +2681,8 @@
     <HelpKINode Title="JobCancellationToken.ShutdownToken Property " Url="html/P_Hangfire_JobCancellationToken_ShutdownToken.htm" />
   </HelpKINode>
   <HelpKINode Title="SidebarMenu method" Url="html/M_Hangfire_Dashboard_HtmlHelper_SidebarMenu.htm" />
+  <HelpKINode Title="Sleep method" Url="html/M_Hangfire_Server_BackgroundProcessContextExtensions_Sleep.htm" />
+  <HelpKINode Title="SleepOrThrow method" Url="html/M_Hangfire_Server_BackgroundProcessContextExtensions_SleepOrThrow.htm" />
   <HelpKINode Title="StackTrace method" Url="html/M_Hangfire_Dashboard_HtmlHelper_StackTrace.htm" />
   <HelpKINode Title="Start method" Url="html/M_Hangfire_BackgroundJobServer_Start.htm" />
   <HelpKINode Title="StartedAt property">
@@ -2972,16 +2744,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_States_StateMachineExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="StateMachineExtensions.ChangeState method" Url="html/M_Hangfire_States_StateMachineExtensions_ChangeState.htm" />
-  <HelpKINode Title="StateMachineFactory class">
-    <HelpKINode Title="StateMachineFactory Class" Url="html/T_Hangfire_States_StateMachineFactory.htm" />
-    <HelpKINode Title="about StateMachineFactory class" Url="html/T_Hangfire_States_StateMachineFactory.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_States_StateMachineFactory__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_Hangfire_States_StateMachineFactory.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_States_StateMachineFactory.htm" />
-  </HelpKINode>
-  <HelpKINode Title="StateMachineFactory.Create method" Url="html/M_Hangfire_States_StateMachineFactory_Create.htm" />
-  <HelpKINode Title="StateMachineFactory.Default field" Url="html/F_Hangfire_States_StateMachineFactory_Default.htm" />
-  <HelpKINode Title="StateMachineFactory.StateMachineFactory constructor" Url="html/Overload_Hangfire_States_StateMachineFactory__ctor.htm" />
   <HelpKINode Title="StateMachineFactoryFactory class">
     <HelpKINode Title="StateMachineFactoryFactory Class" Url="html/T_Hangfire_States_StateMachineFactoryFactory.htm" />
     <HelpKINode Title="about StateMachineFactoryFactory class" Url="html/T_Hangfire_States_StateMachineFactoryFactory.htm" />
@@ -3111,7 +2873,6 @@
   <HelpKINode Title="ToClassName method" Url="html/M_Hangfire_Dashboard_MetricStyleExtensions_ToClassName.htm" />
   <HelpKINode Title="ToHumanDuration method" Url="html/M_Hangfire_Dashboard_HtmlHelper_ToHumanDuration.htm" />
   <HelpKINode Title="ToJson method" Url="html/M_Hangfire_Common_JobHelper_ToJson.htm" />
-  <HelpKINode Title="ToLogMessageSeverity method" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider_LoupeLogger_ToLogMessageSeverity.htm" />
   <HelpKINode Title="ToString method">
     <HelpKINode Title="BackgroundServer.ToString Method " Url="html/M_Hangfire_Server_BackgroundServer_ToString.htm" />
     <HelpKINode Title="Job.ToString Method " Url="html/M_Hangfire_Common_Job_ToString.htm" />
@@ -3249,7 +3010,6 @@
     <HelpKINode Title="WorkerContext.WorkerNumber Property " Url="html/P_Hangfire_Server_WorkerContext_WorkerNumber.htm" />
   </HelpKINode>
   <HelpKINode Title="WorkersCount property" Url="html/P_Hangfire_Storage_Monitoring_ServerDto_WorkersCount.htm" />
-  <HelpKINode Title="Write method" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_ColouredConsoleLogger_Write.htm" />
   <HelpKINode Title="WriteOptionsToLog method" Url="html/M_Hangfire_JobStorage_WriteOptionsToLog.htm" />
   <HelpKINode Title="WriteToLog method" Url="html/M_Hangfire_BackgroundJobServerOptions_WriteToLog.htm" />
   <HelpKINode Title="Yearly method" Url="html/Overload_Hangfire_Cron_Yearly.htm" />
