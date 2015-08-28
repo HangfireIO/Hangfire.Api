@@ -29,6 +29,16 @@ namespace Samples
             #endregion
         }
 
+        public void CreateInScheduledState()
+        {
+            #region ScheduledState
+            var client = new BackgroundJobClient();
+            var state = new ScheduledState(TimeSpan.FromHours(2));
+
+            client.Create(() => Console.WriteLine("Hello!"), state);
+            #endregion
+        }
+
         public void ChangeToDeletedState()
         {
             #region DeletedState
