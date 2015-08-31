@@ -7,7 +7,7 @@
             is deserialized to get state changing filters, and to allow <a href="T_Hangfire_States_IStateHandler.htm">
             state handlers</a> to perform additional work related to the state.</p><p>However we cannot always deserialize a job, for example, when job method was
             removed from the code base or its assembly reference is missing. Since background
-            processing is impossible anyway, the <a href="T_Hangfire_States_IStateMachine.htm">state machine</a>
+            processing is impossible anyway, the <a href="T_Hangfire_States_IStateChangeProcess.htm">state machine</a>
             moves such a background job to the <a href="T_Hangfire_States_FailedState.htm">FailedState</a> in this case to
             highlight a problem to the developers (because deserialization exception may
             occur due to bad refactorings or other programming mistakes).</p><p>However, in some exceptional cases we can ignore deserialization exceptions,
