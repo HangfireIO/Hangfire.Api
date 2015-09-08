@@ -52,6 +52,7 @@
     <FooterText>&amp;lt%3ba href=&amp;quot%3bhttp://hangfire.io&amp;quot%3b target=&amp;quot%3b_blank&amp;quot%3b&amp;gt%3bHangfire.io&amp;lt%3b/a&amp;gt%3b — &amp;lt%3ba href=&amp;quot%3bhttp://hangfire.io/blog/&amp;quot%3b target=&amp;quot%3b_blank&amp;quot%3b&amp;gt%3bBlog&amp;lt%3b/a&amp;gt%3b — &amp;lt%3ba href=&amp;quot%3bhttp://discuss.hangfire.io&amp;quot%3b target=&amp;quot%3b_blank&amp;quot%3b&amp;gt%3bForum&amp;lt%3b/a&amp;gt%3b — &amp;lt%3ba href=&amp;quot%3bhttps://github.com/HangfireIO&amp;quot%3b target=&amp;quot%3b_blank&amp;quot%3b&amp;gt%3bSource Code&amp;lt%3b/a&amp;gt%3b</FooterText>
     <HeaderText>
     </HeaderText>
+    <MissingTags>Summary, Parameter, AutoDocumentCtors, Namespace, TypeParameter, AutoDocumentDispose</MissingTags>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
