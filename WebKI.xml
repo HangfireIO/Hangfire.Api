@@ -7,6 +7,7 @@
     <HelpKINode Title="JobStorageConnection.AcquireDistributedLock Method " Url="html/M_Hangfire_Storage_JobStorageConnection_AcquireDistributedLock.htm" />
   </HelpKINode>
   <HelpKINode Title="ActivateJob method" Url="html/M_Hangfire_JobActivator_ActivateJob.htm" />
+  <HelpKINode Title="Activator property" Url="html/P_Hangfire_BackgroundJobServerOptions_Activator.htm" />
   <HelpKINode Title="Active property" Url="html/P_Hangfire_Dashboard_MenuItem_Active.htm" />
   <HelpKINode Title="Add method">
     <HelpKINode Title="JobFilterCollection.Add Method " Url="html/Overload_Hangfire_Common_JobFilterCollection_Add.htm" />
@@ -94,11 +95,13 @@
     <HelpKINode Title="AutomaticRetryAttribute Class" Url="html/T_Hangfire_AutomaticRetryAttribute.htm" />
     <HelpKINode Title="about AutomaticRetryAttribute class" Url="html/T_Hangfire_AutomaticRetryAttribute.htm" />
     <HelpKINode Title="constructor" Url="html/M_Hangfire_AutomaticRetryAttribute__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Hangfire_AutomaticRetryAttribute.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_AutomaticRetryAttribute.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_AutomaticRetryAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="AutomaticRetryAttribute.Attempts property" Url="html/P_Hangfire_AutomaticRetryAttribute_Attempts.htm" />
   <HelpKINode Title="AutomaticRetryAttribute.AutomaticRetryAttribute constructor" Url="html/M_Hangfire_AutomaticRetryAttribute__ctor.htm" />
+  <HelpKINode Title="AutomaticRetryAttribute.DefaultRetryAttempts field" Url="html/F_Hangfire_AutomaticRetryAttribute_DefaultRetryAttempts.htm" />
   <HelpKINode Title="AutomaticRetryAttribute.LogEvents property" Url="html/P_Hangfire_AutomaticRetryAttribute_LogEvents.htm" />
   <HelpKINode Title="AutomaticRetryAttribute.OnAttemptsExceeded property" Url="html/P_Hangfire_AutomaticRetryAttribute_OnAttemptsExceeded.htm" />
   <HelpKINode Title="AutomaticRetryAttribute.OnStateApplied method" Url="html/M_Hangfire_AutomaticRetryAttribute_OnStateApplied.htm" />
@@ -185,16 +188,15 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_BackgroundJobServerOptions.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_BackgroundJobServerOptions.htm" />
   </HelpKINode>
+  <HelpKINode Title="BackgroundJobServerOptions.Activator property" Url="html/P_Hangfire_BackgroundJobServerOptions_Activator.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.BackgroundJobServerOptions constructor" Url="html/M_Hangfire_BackgroundJobServerOptions__ctor.htm" />
-  <HelpKINode Title="BackgroundJobServerOptions.CreationProcess property" Url="html/P_Hangfire_BackgroundJobServerOptions_CreationProcess.htm" />
+  <HelpKINode Title="BackgroundJobServerOptions.FilterProvider property" Url="html/P_Hangfire_BackgroundJobServerOptions_FilterProvider.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.HeartbeatInterval property" Url="html/P_Hangfire_BackgroundJobServerOptions_HeartbeatInterval.htm" />
-  <HelpKINode Title="BackgroundJobServerOptions.PerformanceProcess property" Url="html/P_Hangfire_BackgroundJobServerOptions_PerformanceProcess.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.Queues property" Url="html/P_Hangfire_BackgroundJobServerOptions_Queues.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.SchedulePollingInterval property" Url="html/P_Hangfire_BackgroundJobServerOptions_SchedulePollingInterval.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.ServerName property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerName.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.ServerWatchdogOptions property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerWatchdogOptions.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.ShutdownTimeout property" Url="html/P_Hangfire_BackgroundJobServerOptions_ShutdownTimeout.htm" />
-  <HelpKINode Title="BackgroundJobServerOptions.StateChangeProcess property" Url="html/P_Hangfire_BackgroundJobServerOptions_StateChangeProcess.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.WorkerCount property" Url="html/P_Hangfire_BackgroundJobServerOptions_WorkerCount.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.WriteToLog method" Url="html/M_Hangfire_BackgroundJobServerOptions_WriteToLog.htm" />
   <HelpKINode Title="BackgroundProcessContext class">
@@ -417,7 +419,6 @@
   <HelpKINode Title="CreatingContext.GetJobParameter(Of T) method" Url="html/M_Hangfire_Client_CreatingContext_GetJobParameter__1.htm" />
   <HelpKINode Title="CreatingContext.GetJobParameter&lt;T&gt; method" Url="html/M_Hangfire_Client_CreatingContext_GetJobParameter__1.htm" />
   <HelpKINode Title="CreatingContext.SetJobParameter method" Url="html/M_Hangfire_Client_CreatingContext_SetJobParameter.htm" />
-  <HelpKINode Title="CreationProcess property" Url="html/P_Hangfire_BackgroundJobServerOptions_CreationProcess.htm" />
   <HelpKINode Title="Cron class">
     <HelpKINode Title="Cron Class" Url="html/T_Hangfire_Cron.htm" />
     <HelpKINode Title="about Cron class" Url="html/T_Hangfire_Cron.htm" />
@@ -515,6 +516,7 @@
   <HelpKINode Title="DefaultOrder field" Url="html/F_Hangfire_Common_JobFilter_DefaultOrder.htm" />
   <HelpKINode Title="DefaultPollingInterval field" Url="html/F_Hangfire_Server_SchedulePoller_DefaultPollingInterval.htm" />
   <HelpKINode Title="DefaultQueue field" Url="html/F_Hangfire_States_EnqueuedState_DefaultQueue.htm" />
+  <HelpKINode Title="DefaultRetryAttempts field" Url="html/F_Hangfire_AutomaticRetryAttribute_DefaultRetryAttempts.htm" />
   <HelpKINode Title="DefaultShutdownTimeout field" Url="html/F_Hangfire_Server_BackgroundServer_DefaultShutdownTimeout.htm" />
   <HelpKINode Title="Delete enumeration member" Url="html/T_Hangfire_AttemptsExceededAction.htm" />
   <HelpKINode Title="Delete method">
@@ -775,6 +777,7 @@
     <HelpKINode Title="IStorageConnection.FetchNextJob Method " Url="html/M_Hangfire_Storage_IStorageConnection_FetchNextJob.htm" />
     <HelpKINode Title="JobStorageConnection.FetchNextJob Method " Url="html/M_Hangfire_Storage_JobStorageConnection_FetchNextJob.htm" />
   </HelpKINode>
+  <HelpKINode Title="FilterProvider property" Url="html/P_Hangfire_BackgroundJobServerOptions_FilterProvider.htm" />
   <HelpKINode Title="Filters property" Url="html/P_Hangfire_GlobalJobFilters_Filters.htm" />
   <HelpKINode Title="FindDispatcher method" Url="html/M_Hangfire_Dashboard_RouteCollection_FindDispatcher.htm" />
   <HelpKINode Title="FirstJobs property" Url="html/P_Hangfire_Storage_Monitoring_QueueWithTopEnqueuedJobsDto_FirstJobs.htm" />
@@ -2145,7 +2148,6 @@
   <HelpKINode Title="ParentId property" Url="html/P_Hangfire_States_AwaitingState_ParentId.htm" />
   <HelpKINode Title="Perform method" Url="html/M_Hangfire_Common_Job_Perform.htm" />
   <HelpKINode Title="PerformanceDuration property" Url="html/P_Hangfire_States_SucceededState_PerformanceDuration.htm" />
-  <HelpKINode Title="PerformanceProcess property" Url="html/P_Hangfire_BackgroundJobServerOptions_PerformanceProcess.htm" />
   <HelpKINode Title="PerformContext class">
     <HelpKINode Title="PerformContext Class" Url="html/T_Hangfire_Server_PerformContext.htm" />
     <HelpKINode Title="about PerformContext class" Url="html/T_Hangfire_Server_PerformContext.htm" />
@@ -2660,7 +2662,6 @@
     <HelpKINode Title="constructor" Url="html/Overload_Hangfire_States_StateChangeProcess__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_States_StateChangeProcess.htm" />
   </HelpKINode>
-  <HelpKINode Title="StateChangeProcess property" Url="html/P_Hangfire_BackgroundJobServerOptions_StateChangeProcess.htm" />
   <HelpKINode Title="StateChangeProcess.ChangeState method" Url="html/M_Hangfire_States_StateChangeProcess_ChangeState.htm" />
   <HelpKINode Title="StateChangeProcess.StateChangeProcess constructor" Url="html/Overload_Hangfire_States_StateChangeProcess__ctor.htm" />
   <HelpKINode Title="StateContext class">
