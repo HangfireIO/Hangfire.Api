@@ -4,16 +4,18 @@
             <a href="T_Hangfire_BackgroundJob.htm">BackgroundJob</a> and <a href="T_Hangfire_BackgroundJobServer.htm">BackgroundJobServer</a>.
             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table id="typeList" class="members"><tr><th class="iconColumn">
 					 
-				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Hangfire_AppBuilderExtensions.htm">AppBuilderExtensions</a></td><td><div class="summary">
-            Provides extension methods for the <span class="nolink">IAppBuilder</span> interface
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Hangfire_AppBuilderExtensions.htm">AppBuilderExtensions</a></td><td><div class="summary">
+            Provides extension methods for the <span class="code">IAppBuilder</span> interface
             defined in the <a href="https://www.nuget.org/packages/Owin/" target="_blank">Owin</a> 
             NuGet package to simplify the integration with OWIN applications.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Hangfire_AutomaticRetryAttribute.htm">AutomaticRetryAttribute</a></td><td><div class="summary">
-            Represents a <i>state filter</i> that performs automatic retries for 
+            Represents a job filter that performs <i>automatic retries</i> for 
             background jobs whose processing was failed due to an exception, with 
             a limited number of attempts.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Hangfire_BackgroundJob.htm">BackgroundJob</a></td><td><div class="summary">
-            Represents a static facade for the Hangfire Client API.
+            Provides static methods for creating <i>fire-and-forget</i>, <i>delayed</i>
+            jobs and <i>continuations</i> as well as re-queue and delete existing
+            background jobs.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Hangfire_BackgroundJobClient.htm">BackgroundJobClient</a></td><td><div class="summary">
             Represents a Hangfire Client API. Contains methods related
             to the job creation feature.

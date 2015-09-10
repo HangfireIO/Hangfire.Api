@@ -130,9 +130,7 @@
   <HelpKINode Title="BackgroundJob class">
     <HelpKINode Title="BackgroundJob Class" Url="html/T_Hangfire_BackgroundJob.htm" />
     <HelpKINode Title="about BackgroundJob class" Url="html/T_Hangfire_BackgroundJob.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_BackgroundJob__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_BackgroundJob.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_BackgroundJob.htm" />
   </HelpKINode>
   <HelpKINode Title="BackgroundJob property">
     <HelpKINode Title="ApplyStateContext.BackgroundJob Property " Url="html/P_Hangfire_States_ApplyStateContext_BackgroundJob.htm" />
@@ -140,13 +138,9 @@
     <HelpKINode Title="PerformContext.BackgroundJob Property " Url="html/P_Hangfire_Server_PerformContext_BackgroundJob.htm" />
     <HelpKINode Title="StateContext.BackgroundJob Property " Url="html/P_Hangfire_States_StateContext_BackgroundJob.htm" />
   </HelpKINode>
-  <HelpKINode Title="BackgroundJob.BackgroundJob constructor" Url="html/M_Hangfire_BackgroundJob__ctor.htm" />
   <HelpKINode Title="BackgroundJob.ContinueWith method" Url="html/Overload_Hangfire_BackgroundJob_ContinueWith.htm" />
-  <HelpKINode Title="BackgroundJob.CreatedAt property" Url="html/P_Hangfire_BackgroundJob_CreatedAt.htm" />
   <HelpKINode Title="BackgroundJob.Delete method" Url="html/Overload_Hangfire_BackgroundJob_Delete.htm" />
   <HelpKINode Title="BackgroundJob.Enqueue method" Url="html/Overload_Hangfire_BackgroundJob_Enqueue.htm" />
-  <HelpKINode Title="BackgroundJob.Id property" Url="html/P_Hangfire_BackgroundJob_Id.htm" />
-  <HelpKINode Title="BackgroundJob.Job property" Url="html/P_Hangfire_BackgroundJob_Job.htm" />
   <HelpKINode Title="BackgroundJob.Requeue method" Url="html/Overload_Hangfire_BackgroundJob_Requeue.htm" />
   <HelpKINode Title="BackgroundJob.Schedule method" Url="html/Overload_Hangfire_BackgroundJob_Schedule.htm" />
   <HelpKINode Title="BackgroundJobClient class">
@@ -374,7 +368,6 @@
   <HelpKINode Title="CreateContext.Parameters property" Url="html/P_Hangfire_Client_CreateContext_Parameters.htm" />
   <HelpKINode Title="CreateContext.Storage property" Url="html/P_Hangfire_Client_CreateContext_Storage.htm" />
   <HelpKINode Title="CreatedAt property">
-    <HelpKINode Title="BackgroundJob.CreatedAt Property " Url="html/P_Hangfire_BackgroundJob_CreatedAt.htm" />
     <HelpKINode Title="JobData.CreatedAt Property " Url="html/P_Hangfire_Storage_JobData_CreatedAt.htm" />
     <HelpKINode Title="JobDetailsDto.CreatedAt Property " Url="html/P_Hangfire_Storage_Monitoring_JobDetailsDto_CreatedAt.htm" />
     <HelpKINode Title="PerformContext.CreatedAt Property " Url="html/P_Hangfire_Server_PerformContext_CreatedAt.htm" />
@@ -1213,10 +1206,7 @@
   </HelpKINode>
   <HelpKINode Title="IClientFilter.OnCreated method" Url="html/M_Hangfire_Client_IClientFilter_OnCreated.htm" />
   <HelpKINode Title="IClientFilter.OnCreating method" Url="html/M_Hangfire_Client_IClientFilter_OnCreating.htm" />
-  <HelpKINode Title="Id property">
-    <HelpKINode Title="BackgroundJob.Id Property " Url="html/P_Hangfire_BackgroundJob_Id.htm" />
-    <HelpKINode Title="RecurringJobDto.Id Property " Url="html/P_Hangfire_Storage_RecurringJobDto_Id.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Id property" Url="html/P_Hangfire_Storage_RecurringJobDto_Id.htm" />
   <HelpKINode Title="IElectStateFilter interface">
     <HelpKINode Title="IElectStateFilter Interface" Url="html/T_Hangfire_States_IElectStateFilter.htm" />
     <HelpKINode Title="about IElectStateFilter interface" Url="html/T_Hangfire_States_IElectStateFilter.htm" />
@@ -1531,7 +1521,6 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Common_Job.htm" />
   </HelpKINode>
   <HelpKINode Title="Job property">
-    <HelpKINode Title="BackgroundJob.Job Property " Url="html/P_Hangfire_BackgroundJob_Job.htm" />
     <HelpKINode Title="CreateContext.Job Property " Url="html/P_Hangfire_Client_CreateContext_Job.htm" />
     <HelpKINode Title="DeletedJobDto.Job Property " Url="html/P_Hangfire_Storage_Monitoring_DeletedJobDto_Job.htm" />
     <HelpKINode Title="EnqueuedJobDto.Job Property " Url="html/P_Hangfire_Storage_Monitoring_EnqueuedJobDto_Job.htm" />

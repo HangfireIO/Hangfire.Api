@@ -37,12 +37,11 @@
             Represents the default queue name. This field is constant.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_Hangfire_States_EnqueuedState_StateName.htm">StateName</a></td><td><div class="summary">
             Represents the name of the <i>Enqueued</i> state. This field is read-only.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection">
-            Background job identifier is placed on a queue with the given name. When
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>Background job in <span class="selflink">EnqueuedState</span> is referred as
+            <b>fire-and-forget job</b>.</p><p>Background job identifier is placed on a queue with the given name. When
             a queue name wasn't specified, the <a href="F_Hangfire_States_EnqueuedState_DefaultQueue.htm">DefaultQueue</a> name will
             be used. Message queue implementation depends on a current <a href="T_Hangfire_JobStorage.htm">JobStorage</a>
-            instance.
-            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection">
+            instance.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection">
             The following example demonstrates the creation of a background job in
             <span class="selflink">EnqueuedState</span>. Please see 
             <a href="Overload_Hangfire_BackgroundJob_Enqueue.htm">BackgroundJob.Enqueue</a>
