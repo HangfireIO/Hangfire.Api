@@ -79,10 +79,8 @@
     <HelpKINode Title="RazorPage.AppPath Property " Url="html/P_Hangfire_Dashboard_RazorPage_AppPath.htm" />
     <HelpKINode Title="RequestDispatcherContext.AppPath Property " Url="html/P_Hangfire_Dashboard_RequestDispatcherContext_AppPath.htm" />
   </HelpKINode>
-  <HelpKINode Title="Arguments property">
-    <HelpKINode Title="InvocationData.Arguments Property " Url="html/P_Hangfire_Storage_InvocationData_Arguments.htm" />
-    <HelpKINode Title="Job.Arguments Property " Url="html/P_Hangfire_Common_Job_Arguments.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Args property" Url="html/P_Hangfire_Common_Job_Args.htm" />
+  <HelpKINode Title="Arguments property" Url="html/P_Hangfire_Storage_InvocationData_Arguments.htm" />
   <HelpKINode Title="Assign enumeration member" Url="html/T_Hangfire_Annotations_ImplicitUseKindFlags.htm" />
   <HelpKINode Title="Attempts property" Url="html/P_Hangfire_AutomaticRetryAttribute_Attempts.htm" />
   <HelpKINode Title="AttemptsExceededAction enumeration" Url="html/T_Hangfire_AttemptsExceededAction.htm" />
@@ -134,9 +132,9 @@
   </HelpKINode>
   <HelpKINode Title="BackgroundJob property">
     <HelpKINode Title="ApplyStateContext.BackgroundJob Property " Url="html/P_Hangfire_States_ApplyStateContext_BackgroundJob.htm" />
+    <HelpKINode Title="CreatedContext.BackgroundJob Property " Url="html/P_Hangfire_Client_CreatedContext_BackgroundJob.htm" />
     <HelpKINode Title="ElectStateContext.BackgroundJob Property " Url="html/P_Hangfire_States_ElectStateContext_BackgroundJob.htm" />
     <HelpKINode Title="PerformContext.BackgroundJob Property " Url="html/P_Hangfire_Server_PerformContext_BackgroundJob.htm" />
-    <HelpKINode Title="StateContext.BackgroundJob Property " Url="html/P_Hangfire_States_StateContext_BackgroundJob.htm" />
   </HelpKINode>
   <HelpKINode Title="BackgroundJob.ContinueWith method" Url="html/Overload_Hangfire_BackgroundJob_ContinueWith.htm" />
   <HelpKINode Title="BackgroundJob.Delete method" Url="html/Overload_Hangfire_BackgroundJob_Delete.htm" />
@@ -152,6 +150,12 @@
   <HelpKINode Title="BackgroundJobClient.BackgroundJobClient constructor" Url="html/Overload_Hangfire_BackgroundJobClient__ctor.htm" />
   <HelpKINode Title="BackgroundJobClient.ChangeState method" Url="html/M_Hangfire_BackgroundJobClient_ChangeState.htm" />
   <HelpKINode Title="BackgroundJobClient.Create method" Url="html/M_Hangfire_BackgroundJobClient_Create.htm" />
+  <HelpKINode Title="BackgroundJobClientException class">
+    <HelpKINode Title="BackgroundJobClientException Class" Url="html/T_Hangfire_BackgroundJobClientException.htm" />
+    <HelpKINode Title="about BackgroundJobClientException class" Url="html/T_Hangfire_BackgroundJobClientException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Hangfire_BackgroundJobClientException__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BackgroundJobClientException.BackgroundJobClientException constructor" Url="html/M_Hangfire_BackgroundJobClientException__ctor.htm" />
   <HelpKINode Title="BackgroundJobClientExtensions class">
     <HelpKINode Title="BackgroundJobClientExtensions Class" Url="html/T_Hangfire_BackgroundJobClientExtensions.htm" />
     <HelpKINode Title="about BackgroundJobClientExtensions class" Url="html/T_Hangfire_BackgroundJobClientExtensions.htm" />
@@ -164,7 +168,23 @@
   <HelpKINode Title="BackgroundJobClientExtensions.Enqueue method" Url="html/Overload_Hangfire_BackgroundJobClientExtensions_Enqueue.htm" />
   <HelpKINode Title="BackgroundJobClientExtensions.Requeue method" Url="html/Overload_Hangfire_BackgroundJobClientExtensions_Requeue.htm" />
   <HelpKINode Title="BackgroundJobClientExtensions.Schedule method" Url="html/Overload_Hangfire_BackgroundJobClientExtensions_Schedule.htm" />
+  <HelpKINode Title="BackgroundJobFactory class">
+    <HelpKINode Title="BackgroundJobFactory Class" Url="html/T_Hangfire_Client_BackgroundJobFactory.htm" />
+    <HelpKINode Title="about BackgroundJobFactory class" Url="html/T_Hangfire_Client_BackgroundJobFactory.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Client_BackgroundJobFactory__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Client_BackgroundJobFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BackgroundJobFactory.BackgroundJobFactory constructor" Url="html/Overload_Hangfire_Client_BackgroundJobFactory__ctor.htm" />
+  <HelpKINode Title="BackgroundJobFactory.Create method" Url="html/M_Hangfire_Client_BackgroundJobFactory_Create.htm" />
   <HelpKINode Title="BackgroundJobId property" Url="html/P_Hangfire_States_StateChangeContext_BackgroundJobId.htm" />
+  <HelpKINode Title="BackgroundJobPerformer class">
+    <HelpKINode Title="BackgroundJobPerformer Class" Url="html/T_Hangfire_Server_BackgroundJobPerformer.htm" />
+    <HelpKINode Title="about BackgroundJobPerformer class" Url="html/T_Hangfire_Server_BackgroundJobPerformer.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_BackgroundJobPerformer__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_BackgroundJobPerformer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BackgroundJobPerformer.BackgroundJobPerformer constructor" Url="html/Overload_Hangfire_Server_BackgroundJobPerformer__ctor.htm" />
+  <HelpKINode Title="BackgroundJobPerformer.Perform method" Url="html/M_Hangfire_Server_BackgroundJobPerformer_Perform.htm" />
   <HelpKINode Title="BackgroundJobServer class">
     <HelpKINode Title="BackgroundJobServer Class" Url="html/T_Hangfire_BackgroundJobServer.htm" />
     <HelpKINode Title="about BackgroundJobServer class" Url="html/T_Hangfire_BackgroundJobServer.htm" />
@@ -179,7 +199,6 @@
     <HelpKINode Title="BackgroundJobServerOptions Class" Url="html/T_Hangfire_BackgroundJobServerOptions.htm" />
     <HelpKINode Title="about BackgroundJobServerOptions class" Url="html/T_Hangfire_BackgroundJobServerOptions.htm" />
     <HelpKINode Title="constructor" Url="html/M_Hangfire_BackgroundJobServerOptions__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_BackgroundJobServerOptions.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_BackgroundJobServerOptions.htm" />
   </HelpKINode>
   <HelpKINode Title="BackgroundJobServerOptions.Activator property" Url="html/P_Hangfire_BackgroundJobServerOptions_Activator.htm" />
@@ -188,11 +207,20 @@
   <HelpKINode Title="BackgroundJobServerOptions.HeartbeatInterval property" Url="html/P_Hangfire_BackgroundJobServerOptions_HeartbeatInterval.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.Queues property" Url="html/P_Hangfire_BackgroundJobServerOptions_Queues.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.SchedulePollingInterval property" Url="html/P_Hangfire_BackgroundJobServerOptions_SchedulePollingInterval.htm" />
+  <HelpKINode Title="BackgroundJobServerOptions.ServerCheckInterval property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerCheckInterval.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.ServerName property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerName.htm" />
+  <HelpKINode Title="BackgroundJobServerOptions.ServerTimeout property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerTimeout.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.ServerWatchdogOptions property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerWatchdogOptions.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.ShutdownTimeout property" Url="html/P_Hangfire_BackgroundJobServerOptions_ShutdownTimeout.htm" />
   <HelpKINode Title="BackgroundJobServerOptions.WorkerCount property" Url="html/P_Hangfire_BackgroundJobServerOptions_WorkerCount.htm" />
-  <HelpKINode Title="BackgroundJobServerOptions.WriteToLog method" Url="html/M_Hangfire_BackgroundJobServerOptions_WriteToLog.htm" />
+  <HelpKINode Title="BackgroundJobStateChanger class">
+    <HelpKINode Title="BackgroundJobStateChanger Class" Url="html/T_Hangfire_States_BackgroundJobStateChanger.htm" />
+    <HelpKINode Title="about BackgroundJobStateChanger class" Url="html/T_Hangfire_States_BackgroundJobStateChanger.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_States_BackgroundJobStateChanger__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_States_BackgroundJobStateChanger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BackgroundJobStateChanger.BackgroundJobStateChanger constructor" Url="html/Overload_Hangfire_States_BackgroundJobStateChanger__ctor.htm" />
+  <HelpKINode Title="BackgroundJobStateChanger.ChangeState method" Url="html/M_Hangfire_States_BackgroundJobStateChanger_ChangeState.htm" />
   <HelpKINode Title="BackgroundProcessContext class">
     <HelpKINode Title="BackgroundProcessContext Class" Url="html/T_Hangfire_Server_BackgroundProcessContext.htm" />
     <HelpKINode Title="about BackgroundProcessContext class" Url="html/T_Hangfire_Server_BackgroundProcessContext.htm" />
@@ -212,19 +240,28 @@
   </HelpKINode>
   <HelpKINode Title="BackgroundProcessContextExtensions.Sleep method" Url="html/M_Hangfire_Server_BackgroundProcessContextExtensions_Sleep.htm" />
   <HelpKINode Title="BackgroundProcessContextExtensions.SleepOrThrow method" Url="html/M_Hangfire_Server_BackgroundProcessContextExtensions_SleepOrThrow.htm" />
-  <HelpKINode Title="BackgroundServer class">
-    <HelpKINode Title="BackgroundServer Class" Url="html/T_Hangfire_Server_BackgroundServer.htm" />
-    <HelpKINode Title="about BackgroundServer class" Url="html/T_Hangfire_Server_BackgroundServer.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_BackgroundServer__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_Hangfire_Server_BackgroundServer.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_BackgroundServer.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Server_BackgroundServer.htm" />
+  <HelpKINode Title="BackgroundProcessingServer class">
+    <HelpKINode Title="BackgroundProcessingServer Class" Url="html/T_Hangfire_Server_BackgroundProcessingServer.htm" />
+    <HelpKINode Title="about BackgroundProcessingServer class" Url="html/T_Hangfire_Server_BackgroundProcessingServer.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_BackgroundProcessingServer__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Hangfire_Server_BackgroundProcessingServer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_BackgroundProcessingServer.htm" />
   </HelpKINode>
-  <HelpKINode Title="BackgroundServer.BackgroundServer constructor" Url="html/Overload_Hangfire_Server_BackgroundServer__ctor.htm" />
-  <HelpKINode Title="BackgroundServer.DefaultShutdownTimeout field" Url="html/F_Hangfire_Server_BackgroundServer_DefaultShutdownTimeout.htm" />
-  <HelpKINode Title="BackgroundServer.Dispose method" Url="html/M_Hangfire_Server_BackgroundServer_Dispose.htm" />
-  <HelpKINode Title="BackgroundServer.ShutdownTimeout property" Url="html/P_Hangfire_Server_BackgroundServer_ShutdownTimeout.htm" />
-  <HelpKINode Title="BackgroundServer.ToString method" Url="html/M_Hangfire_Server_BackgroundServer_ToString.htm" />
+  <HelpKINode Title="BackgroundProcessingServer.BackgroundProcessingServer constructor" Url="html/Overload_Hangfire_Server_BackgroundProcessingServer__ctor.htm" />
+  <HelpKINode Title="BackgroundProcessingServer.DefaultShutdownTimeout field" Url="html/F_Hangfire_Server_BackgroundProcessingServer_DefaultShutdownTimeout.htm" />
+  <HelpKINode Title="BackgroundProcessingServer.Dispose method" Url="html/M_Hangfire_Server_BackgroundProcessingServer_Dispose.htm" />
+  <HelpKINode Title="BackgroundProcessingServer.ToString method" Url="html/M_Hangfire_Server_BackgroundProcessingServer_ToString.htm" />
+  <HelpKINode Title="BackgroundProcessingServerOptions class">
+    <HelpKINode Title="BackgroundProcessingServerOptions Class" Url="html/T_Hangfire_Server_BackgroundProcessingServerOptions.htm" />
+    <HelpKINode Title="about BackgroundProcessingServerOptions class" Url="html/T_Hangfire_Server_BackgroundProcessingServerOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Hangfire_Server_BackgroundProcessingServerOptions__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Server_BackgroundProcessingServerOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BackgroundProcessingServerOptions.BackgroundProcessingServerOptions constructor" Url="html/M_Hangfire_Server_BackgroundProcessingServerOptions__ctor.htm" />
+  <HelpKINode Title="BackgroundProcessingServerOptions.HeartbeatInterval property" Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_HeartbeatInterval.htm" />
+  <HelpKINode Title="BackgroundProcessingServerOptions.ServerCheckInterval property" Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_ServerCheckInterval.htm" />
+  <HelpKINode Title="BackgroundProcessingServerOptions.ServerTimeout property" Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_ServerTimeout.htm" />
+  <HelpKINode Title="BackgroundProcessingServerOptions.ShutdownTimeout property" Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_ShutdownTimeout.htm" />
   <HelpKINode Title="BasePageUrl property" Url="html/P_Hangfire_Dashboard_Pager_BasePageUrl.htm" />
   <HelpKINode Title="BaseType property" Url="html/P_Hangfire_Annotations_BaseTypeRequiredAttribute_BaseType.htm" />
   <HelpKINode Title="BaseTypeRequiredAttribute class">
@@ -237,12 +274,6 @@
   <HelpKINode Title="BaseTypeRequiredAttribute.BaseTypeRequiredAttribute constructor" Url="html/M_Hangfire_Annotations_BaseTypeRequiredAttribute__ctor.htm" />
   <HelpKINode Title="BeginScope method" Url="html/M_Hangfire_JobActivator_BeginScope.htm" />
   <HelpKINode Title="BlockMetric method" Url="html/M_Hangfire_Dashboard_HtmlHelper_BlockMetric.htm" />
-  <HelpKINode Title="BootstrapperConfigurationExtensions class">
-    <HelpKINode Title="BootstrapperConfigurationExtensions Class" Url="html/T_Hangfire_BootstrapperConfigurationExtensions.htm" />
-    <HelpKINode Title="about BootstrapperConfigurationExtensions class" Url="html/T_Hangfire_BootstrapperConfigurationExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_BootstrapperConfigurationExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="BootstrapperConfigurationExtensions.UseServer method" Url="html/Overload_Hangfire_BootstrapperConfigurationExtensions_UseServer.htm" />
   <HelpKINode Title="Breadcrumbs method" Url="html/M_Hangfire_Dashboard_HtmlHelper_Breadcrumbs.htm" />
   <HelpKINode Title="CanBeNullAttribute class">
     <HelpKINode Title="CanBeNullAttribute Class" Url="html/T_Hangfire_Annotations_CanBeNullAttribute.htm" />
@@ -283,11 +314,10 @@
   <HelpKINode Title="ChangeState method">
     <HelpKINode Title="BackgroundJobClient.ChangeState Method " Url="html/M_Hangfire_BackgroundJobClient_ChangeState.htm" />
     <HelpKINode Title="BackgroundJobClientExtensions.ChangeState Method " Url="html/M_Hangfire_BackgroundJobClientExtensions_ChangeState.htm" />
+    <HelpKINode Title="BackgroundJobStateChanger.ChangeState Method " Url="html/M_Hangfire_States_BackgroundJobStateChanger_ChangeState.htm" />
     <HelpKINode Title="IBackgroundJobClient.ChangeState Method " Url="html/M_Hangfire_IBackgroundJobClient_ChangeState.htm" />
-    <HelpKINode Title="IStateChangeProcess.ChangeState Method " Url="html/M_Hangfire_States_IStateChangeProcess_ChangeState.htm" />
-    <HelpKINode Title="StateChangeProcess.ChangeState Method " Url="html/M_Hangfire_States_StateChangeProcess_ChangeState.htm" />
+    <HelpKINode Title="IBackgroundJobStateChanger.ChangeState Method " Url="html/M_Hangfire_States_IBackgroundJobStateChanger_ChangeState.htm" />
   </HelpKINode>
-  <HelpKINode Title="CheckInterval property" Url="html/P_Hangfire_Server_ServerWatchdogOptions_CheckInterval.htm" />
   <HelpKINode Title="Clear method" Url="html/M_Hangfire_Common_JobFilterCollection_Clear.htm" />
   <HelpKINode Title="ClientExceptionContext class">
     <HelpKINode Title="ClientExceptionContext Class" Url="html/T_Hangfire_Client_ClientExceptionContext.htm" />
@@ -352,7 +382,9 @@
   <HelpKINode Title="Create method">
     <HelpKINode Title="BackgroundJobClient.Create Method " Url="html/M_Hangfire_BackgroundJobClient_Create.htm" />
     <HelpKINode Title="BackgroundJobClientExtensions.Create Method " Url="html/Overload_Hangfire_BackgroundJobClientExtensions_Create.htm" />
+    <HelpKINode Title="BackgroundJobFactory.Create Method " Url="html/M_Hangfire_Client_BackgroundJobFactory_Create.htm" />
     <HelpKINode Title="IBackgroundJobClient.Create Method " Url="html/M_Hangfire_IBackgroundJobClient_Create.htm" />
+    <HelpKINode Title="IBackgroundJobFactory.Create Method " Url="html/M_Hangfire_Client_IBackgroundJobFactory_Create.htm" />
   </HelpKINode>
   <HelpKINode Title="CreateContext class">
     <HelpKINode Title="CreateContext Class" Url="html/T_Hangfire_Client_CreateContext.htm" />
@@ -371,7 +403,6 @@
     <HelpKINode Title="JobData.CreatedAt Property " Url="html/P_Hangfire_Storage_JobData_CreatedAt.htm" />
     <HelpKINode Title="JobDetailsDto.CreatedAt Property " Url="html/P_Hangfire_Storage_Monitoring_JobDetailsDto_CreatedAt.htm" />
     <HelpKINode Title="PerformContext.CreatedAt Property " Url="html/P_Hangfire_Server_PerformContext_CreatedAt.htm" />
-    <HelpKINode Title="StateContext.CreatedAt Property " Url="html/P_Hangfire_States_StateContext_CreatedAt.htm" />
     <HelpKINode Title="StateHistoryDto.CreatedAt Property " Url="html/P_Hangfire_Storage_Monitoring_StateHistoryDto_CreatedAt.htm" />
   </HelpKINode>
   <HelpKINode Title="CreatedContext class">
@@ -380,6 +411,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Client_CreatedContext.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Client_CreatedContext.htm" />
   </HelpKINode>
+  <HelpKINode Title="CreatedContext.BackgroundJob property" Url="html/P_Hangfire_Client_CreatedContext_BackgroundJob.htm" />
   <HelpKINode Title="CreatedContext.Canceled property" Url="html/P_Hangfire_Client_CreatedContext_Canceled.htm" />
   <HelpKINode Title="CreatedContext.Exception property" Url="html/P_Hangfire_Client_CreatedContext_Exception.htm" />
   <HelpKINode Title="CreatedContext.ExceptionHandled property" Url="html/P_Hangfire_Client_CreatedContext_ExceptionHandled.htm" />
@@ -475,12 +507,6 @@
   <HelpKINode Title="DashboardOptions.AppPath property" Url="html/P_Hangfire_DashboardOptions_AppPath.htm" />
   <HelpKINode Title="DashboardOptions.AuthorizationFilters property" Url="html/P_Hangfire_DashboardOptions_AuthorizationFilters.htm" />
   <HelpKINode Title="DashboardOptions.DashboardOptions constructor" Url="html/M_Hangfire_DashboardOptions__ctor.htm" />
-  <HelpKINode Title="DashboardOwinExtensions class">
-    <HelpKINode Title="DashboardOwinExtensions Class" Url="html/T_Hangfire_Dashboard_DashboardOwinExtensions.htm" />
-    <HelpKINode Title="about DashboardOwinExtensions class" Url="html/T_Hangfire_Dashboard_DashboardOwinExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Dashboard_DashboardOwinExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="DashboardOwinExtensions.MapHangfireDashboard method" Url="html/Overload_Hangfire_Dashboard_DashboardOwinExtensions_MapHangfireDashboard.htm" />
   <HelpKINode Title="DashboardRoutes class">
     <HelpKINode Title="DashboardRoutes Class" Url="html/T_Hangfire_Dashboard_DashboardRoutes.htm" />
     <HelpKINode Title="about DashboardRoutes class" Url="html/T_Hangfire_Dashboard_DashboardRoutes.htm" />
@@ -504,13 +530,23 @@
     <HelpKINode Title="ImplicitUseTargetFlags Enumeration" Url="html/T_Hangfire_Annotations_ImplicitUseTargetFlags.htm" />
     <HelpKINode Title="MetricStyle Enumeration" Url="html/T_Hangfire_Dashboard_MetricStyle.htm" />
   </HelpKINode>
-  <HelpKINode Title="DefaultHeartbeatInterval field" Url="html/F_Hangfire_Server_ServerHeartbeat_DefaultHeartbeatInterval.htm" />
   <HelpKINode Title="DefaultMessageFormatter method" Url="html/M_Hangfire_Logging_LogProviders_ColouredConsoleLogProvider_DefaultMessageFormatter.htm" />
   <HelpKINode Title="DefaultOrder field" Url="html/F_Hangfire_Common_JobFilter_DefaultOrder.htm" />
-  <HelpKINode Title="DefaultPollingInterval field" Url="html/F_Hangfire_Server_SchedulePoller_DefaultPollingInterval.htm" />
+  <HelpKINode Title="DefaultPollingDelay field" Url="html/F_Hangfire_Server_DelayedJobScheduler_DefaultPollingDelay.htm" />
   <HelpKINode Title="DefaultQueue field" Url="html/F_Hangfire_States_EnqueuedState_DefaultQueue.htm" />
   <HelpKINode Title="DefaultRetryAttempts field" Url="html/F_Hangfire_AutomaticRetryAttribute_DefaultRetryAttempts.htm" />
-  <HelpKINode Title="DefaultShutdownTimeout field" Url="html/F_Hangfire_Server_BackgroundServer_DefaultShutdownTimeout.htm" />
+  <HelpKINode Title="DefaultShutdownTimeout field" Url="html/F_Hangfire_Server_BackgroundProcessingServer_DefaultShutdownTimeout.htm" />
+  <HelpKINode Title="DelayedJobScheduler class">
+    <HelpKINode Title="DelayedJobScheduler Class" Url="html/T_Hangfire_Server_DelayedJobScheduler.htm" />
+    <HelpKINode Title="about DelayedJobScheduler class" Url="html/T_Hangfire_Server_DelayedJobScheduler.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_DelayedJobScheduler__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Hangfire_Server_DelayedJobScheduler.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_DelayedJobScheduler.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DelayedJobScheduler.DefaultPollingDelay field" Url="html/F_Hangfire_Server_DelayedJobScheduler_DefaultPollingDelay.htm" />
+  <HelpKINode Title="DelayedJobScheduler.DelayedJobScheduler constructor" Url="html/Overload_Hangfire_Server_DelayedJobScheduler__ctor.htm" />
+  <HelpKINode Title="DelayedJobScheduler.Execute method" Url="html/M_Hangfire_Server_DelayedJobScheduler_Execute.htm" />
+  <HelpKINode Title="DelayedJobScheduler.ToString method" Url="html/M_Hangfire_Server_DelayedJobScheduler_ToString.htm" />
   <HelpKINode Title="Delete enumeration member" Url="html/T_Hangfire_AttemptsExceededAction.htm" />
   <HelpKINode Title="Delete method">
     <HelpKINode Title="BackgroundJob.Delete Method " Url="html/Overload_Hangfire_BackgroundJob_Delete.htm" />
@@ -566,7 +602,7 @@
   <HelpKINode Title="Dispatch method" Url="html/M_Hangfire_Dashboard_IRequestDispatcher_Dispatch.htm" />
   <HelpKINode Title="Dispose method">
     <HelpKINode Title="BackgroundJobServer.Dispose Method " Url="html/M_Hangfire_BackgroundJobServer_Dispose.htm" />
-    <HelpKINode Title="BackgroundServer.Dispose Method " Url="html/M_Hangfire_Server_BackgroundServer_Dispose.htm" />
+    <HelpKINode Title="BackgroundProcessingServer.Dispose Method " Url="html/M_Hangfire_Server_BackgroundProcessingServer_Dispose.htm" />
     <HelpKINode Title="JobActivatorScope.Dispose Method " Url="html/M_Hangfire_JobActivatorScope_Dispose.htm" />
     <HelpKINode Title="JobStorageConnection.Dispose Method " Url="html/M_Hangfire_Storage_JobStorageConnection_Dispose.htm" />
     <HelpKINode Title="JobStorageTransaction.Dispose Method " Url="html/M_Hangfire_Storage_JobStorageTransaction_Dispose.htm" />
@@ -686,13 +722,10 @@
   <HelpKINode Title="ExceptionMessage property" Url="html/P_Hangfire_Storage_Monitoring_FailedJobDto_ExceptionMessage.htm" />
   <HelpKINode Title="ExceptionType property" Url="html/P_Hangfire_Storage_Monitoring_FailedJobDto_ExceptionType.htm" />
   <HelpKINode Title="Execute method">
+    <HelpKINode Title="DelayedJobScheduler.Execute Method " Url="html/M_Hangfire_Server_DelayedJobScheduler_Execute.htm" />
     <HelpKINode Title="IBackgroundProcess.Execute Method " Url="html/M_Hangfire_Server_IBackgroundProcess_Execute.htm" />
-    <HelpKINode Title="IServerComponent.Execute Method " Url="html/M_Hangfire_Server_IServerComponent_Execute.htm" />
     <HelpKINode Title="LayoutPage.Execute Method " Url="html/M_Hangfire_Dashboard_Pages_LayoutPage_Execute.htm" />
     <HelpKINode Title="RecurringJobScheduler.Execute Method " Url="html/M_Hangfire_Server_RecurringJobScheduler_Execute.htm" />
-    <HelpKINode Title="SchedulePoller.Execute Method " Url="html/M_Hangfire_Server_SchedulePoller_Execute.htm" />
-    <HelpKINode Title="ServerHeartbeat.Execute Method " Url="html/M_Hangfire_Server_ServerHeartbeat_Execute.htm" />
-    <HelpKINode Title="ServerWatchdog.Execute Method " Url="html/M_Hangfire_Server_ServerWatchdog_Execute.htm" />
     <HelpKINode Title="Worker.Execute Method " Url="html/M_Hangfire_Server_Worker_Execute.htm" />
   </HelpKINode>
   <HelpKINode Title="Exists method" Url="html/M_Hangfire_Dashboard_JobHistoryRenderer_Exists.htm" />
@@ -932,21 +965,21 @@
   <HelpKINode Title="Hangfire.AutomaticRetryAttribute class" Url="html/T_Hangfire_AutomaticRetryAttribute.htm" />
   <HelpKINode Title="Hangfire.BackgroundJob class" Url="html/T_Hangfire_BackgroundJob.htm" />
   <HelpKINode Title="Hangfire.BackgroundJobClient class" Url="html/T_Hangfire_BackgroundJobClient.htm" />
+  <HelpKINode Title="Hangfire.BackgroundJobClientException class" Url="html/T_Hangfire_BackgroundJobClientException.htm" />
   <HelpKINode Title="Hangfire.BackgroundJobClientExtensions class" Url="html/T_Hangfire_BackgroundJobClientExtensions.htm" />
   <HelpKINode Title="Hangfire.BackgroundJobServer class" Url="html/T_Hangfire_BackgroundJobServer.htm" />
   <HelpKINode Title="Hangfire.BackgroundJobServerOptions class" Url="html/T_Hangfire_BackgroundJobServerOptions.htm" />
-  <HelpKINode Title="Hangfire.BootstrapperConfigurationExtensions class" Url="html/T_Hangfire_BootstrapperConfigurationExtensions.htm" />
   <HelpKINode Title="Hangfire.CaptureCultureAttribute class" Url="html/T_Hangfire_CaptureCultureAttribute.htm" />
   <HelpKINode Title="Hangfire.Client namespace" Url="html/N_Hangfire_Client.htm" />
+  <HelpKINode Title="Hangfire.Client.BackgroundJobFactory class" Url="html/T_Hangfire_Client_BackgroundJobFactory.htm" />
   <HelpKINode Title="Hangfire.Client.ClientExceptionContext class" Url="html/T_Hangfire_Client_ClientExceptionContext.htm" />
   <HelpKINode Title="Hangfire.Client.CreateContext class" Url="html/T_Hangfire_Client_CreateContext.htm" />
   <HelpKINode Title="Hangfire.Client.CreatedContext class" Url="html/T_Hangfire_Client_CreatedContext.htm" />
   <HelpKINode Title="Hangfire.Client.CreateJobFailedException class" Url="html/T_Hangfire_Client_CreateJobFailedException.htm" />
   <HelpKINode Title="Hangfire.Client.CreatingContext class" Url="html/T_Hangfire_Client_CreatingContext.htm" />
+  <HelpKINode Title="Hangfire.Client.IBackgroundJobFactory interface" Url="html/T_Hangfire_Client_IBackgroundJobFactory.htm" />
   <HelpKINode Title="Hangfire.Client.IClientExceptionFilter interface" Url="html/T_Hangfire_Client_IClientExceptionFilter.htm" />
   <HelpKINode Title="Hangfire.Client.IClientFilter interface" Url="html/T_Hangfire_Client_IClientFilter.htm" />
-  <HelpKINode Title="Hangfire.Client.IJobCreationProcess interface" Url="html/T_Hangfire_Client_IJobCreationProcess.htm" />
-  <HelpKINode Title="Hangfire.Client.JobCreationProcess class" Url="html/T_Hangfire_Client_JobCreationProcess.htm" />
   <HelpKINode Title="Hangfire.Common namespace" Url="html/N_Hangfire_Common.htm" />
   <HelpKINode Title="Hangfire.Common.IJobFilter interface" Url="html/T_Hangfire_Common_IJobFilter.htm" />
   <HelpKINode Title="Hangfire.Common.IJobFilterProvider interface" Url="html/T_Hangfire_Common_IJobFilterProvider.htm" />
@@ -965,7 +998,6 @@
   <HelpKINode Title="Hangfire.Dashboard namespace" Url="html/N_Hangfire_Dashboard.htm" />
   <HelpKINode Title="Hangfire.Dashboard.DashboardMetric class" Url="html/T_Hangfire_Dashboard_DashboardMetric.htm" />
   <HelpKINode Title="Hangfire.Dashboard.DashboardMetrics class" Url="html/T_Hangfire_Dashboard_DashboardMetrics.htm" />
-  <HelpKINode Title="Hangfire.Dashboard.DashboardOwinExtensions class" Url="html/T_Hangfire_Dashboard_DashboardOwinExtensions.htm" />
   <HelpKINode Title="Hangfire.Dashboard.DashboardRoutes class" Url="html/T_Hangfire_Dashboard_DashboardRoutes.htm" />
   <HelpKINode Title="Hangfire.Dashboard.HtmlHelper class" Url="html/T_Hangfire_Dashboard_HtmlHelper.htm" />
   <HelpKINode Title="Hangfire.Dashboard.IAuthorizationFilter interface" Url="html/T_Hangfire_Dashboard_IAuthorizationFilter.htm" />
@@ -994,7 +1026,6 @@
   <HelpKINode Title="Hangfire.GlobalJobFilters class" Url="html/T_Hangfire_GlobalJobFilters.htm" />
   <HelpKINode Title="Hangfire.GlobalStateHandlers class" Url="html/T_Hangfire_GlobalStateHandlers.htm" />
   <HelpKINode Title="Hangfire.IBackgroundJobClient interface" Url="html/T_Hangfire_IBackgroundJobClient.htm" />
-  <HelpKINode Title="Hangfire.IBootstrapperConfiguration interface" Url="html/T_Hangfire_IBootstrapperConfiguration.htm" />
   <HelpKINode Title="Hangfire.IGlobalConfiguration interface" Url="html/T_Hangfire_IGlobalConfiguration.htm" />
   <HelpKINode Title="Hangfire.IGlobalConfiguration(Of T) interface" Url="html/T_Hangfire_IGlobalConfiguration_1.htm" />
   <HelpKINode Title="Hangfire.IGlobalConfiguration&lt;T&gt; interface" Url="html/T_Hangfire_IGlobalConfiguration_1.htm" />
@@ -1019,53 +1050,46 @@
   <HelpKINode Title="Hangfire.Logging.LogProviders.LoupeLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_LoupeLogProvider.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.NLogLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_NLogLogProvider.htm" />
   <HelpKINode Title="Hangfire.Logging.LogProviders.SerilogLogProvider class" Url="html/T_Hangfire_Logging_LogProviders_SerilogLogProvider.htm" />
-  <HelpKINode Title="Hangfire.OwinBootstrapper class" Url="html/T_Hangfire_OwinBootstrapper.htm" />
   <HelpKINode Title="Hangfire.QueueAttribute class" Url="html/T_Hangfire_QueueAttribute.htm" />
   <HelpKINode Title="Hangfire.RecurringJob class" Url="html/T_Hangfire_RecurringJob.htm" />
   <HelpKINode Title="Hangfire.RecurringJobManager class" Url="html/T_Hangfire_RecurringJobManager.htm" />
   <HelpKINode Title="Hangfire.Server namespace" Url="html/N_Hangfire_Server.htm" />
+  <HelpKINode Title="Hangfire.Server.BackgroundJobPerformer class" Url="html/T_Hangfire_Server_BackgroundJobPerformer.htm" />
   <HelpKINode Title="Hangfire.Server.BackgroundProcessContext class" Url="html/T_Hangfire_Server_BackgroundProcessContext.htm" />
   <HelpKINode Title="Hangfire.Server.BackgroundProcessContextExtensions class" Url="html/T_Hangfire_Server_BackgroundProcessContextExtensions.htm" />
-  <HelpKINode Title="Hangfire.Server.BackgroundServer class" Url="html/T_Hangfire_Server_BackgroundServer.htm" />
+  <HelpKINode Title="Hangfire.Server.BackgroundProcessingServer class" Url="html/T_Hangfire_Server_BackgroundProcessingServer.htm" />
+  <HelpKINode Title="Hangfire.Server.BackgroundProcessingServerOptions class" Url="html/T_Hangfire_Server_BackgroundProcessingServerOptions.htm" />
+  <HelpKINode Title="Hangfire.Server.DelayedJobScheduler class" Url="html/T_Hangfire_Server_DelayedJobScheduler.htm" />
+  <HelpKINode Title="Hangfire.Server.IBackgroundJobPerformer interface" Url="html/T_Hangfire_Server_IBackgroundJobPerformer.htm" />
   <HelpKINode Title="Hangfire.Server.IBackgroundProcess interface" Url="html/T_Hangfire_Server_IBackgroundProcess.htm" />
-  <HelpKINode Title="Hangfire.Server.IJobPerformanceProcess interface" Url="html/T_Hangfire_Server_IJobPerformanceProcess.htm" />
-  <HelpKINode Title="Hangfire.Server.IServerComponent interface" Url="html/T_Hangfire_Server_IServerComponent.htm" />
   <HelpKINode Title="Hangfire.Server.IServerExceptionFilter interface" Url="html/T_Hangfire_Server_IServerExceptionFilter.htm" />
   <HelpKINode Title="Hangfire.Server.IServerFilter interface" Url="html/T_Hangfire_Server_IServerFilter.htm" />
-  <HelpKINode Title="Hangfire.Server.IServerProcess interface" Url="html/T_Hangfire_Server_IServerProcess.htm" />
   <HelpKINode Title="Hangfire.Server.JobAbortedException class" Url="html/T_Hangfire_Server_JobAbortedException.htm" />
   <HelpKINode Title="Hangfire.Server.JobPerformanceException class" Url="html/T_Hangfire_Server_JobPerformanceException.htm" />
-  <HelpKINode Title="Hangfire.Server.JobPerformanceProcess class" Url="html/T_Hangfire_Server_JobPerformanceProcess.htm" />
   <HelpKINode Title="Hangfire.Server.PerformContext class" Url="html/T_Hangfire_Server_PerformContext.htm" />
   <HelpKINode Title="Hangfire.Server.PerformedContext class" Url="html/T_Hangfire_Server_PerformedContext.htm" />
   <HelpKINode Title="Hangfire.Server.PerformingContext class" Url="html/T_Hangfire_Server_PerformingContext.htm" />
   <HelpKINode Title="Hangfire.Server.RecurringJobScheduler class" Url="html/T_Hangfire_Server_RecurringJobScheduler.htm" />
-  <HelpKINode Title="Hangfire.Server.SchedulePoller class" Url="html/T_Hangfire_Server_SchedulePoller.htm" />
   <HelpKINode Title="Hangfire.Server.ServerContext class" Url="html/T_Hangfire_Server_ServerContext.htm" />
   <HelpKINode Title="Hangfire.Server.ServerExceptionContext class" Url="html/T_Hangfire_Server_ServerExceptionContext.htm" />
-  <HelpKINode Title="Hangfire.Server.ServerHeartbeat class" Url="html/T_Hangfire_Server_ServerHeartbeat.htm" />
-  <HelpKINode Title="Hangfire.Server.ServerOwinExtensions class" Url="html/T_Hangfire_Server_ServerOwinExtensions.htm" />
-  <HelpKINode Title="Hangfire.Server.ServerWatchdog class" Url="html/T_Hangfire_Server_ServerWatchdog.htm" />
-  <HelpKINode Title="Hangfire.Server.ServerWatchdogOptions class" Url="html/T_Hangfire_Server_ServerWatchdogOptions.htm" />
   <HelpKINode Title="Hangfire.Server.Worker class" Url="html/T_Hangfire_Server_Worker.htm" />
   <HelpKINode Title="Hangfire.States namespace" Url="html/N_Hangfire_States.htm" />
   <HelpKINode Title="Hangfire.States.ApplyStateContext class" Url="html/T_Hangfire_States_ApplyStateContext.htm" />
   <HelpKINode Title="Hangfire.States.AwaitingState class" Url="html/T_Hangfire_States_AwaitingState.htm" />
+  <HelpKINode Title="Hangfire.States.BackgroundJobStateChanger class" Url="html/T_Hangfire_States_BackgroundJobStateChanger.htm" />
   <HelpKINode Title="Hangfire.States.DeletedState class" Url="html/T_Hangfire_States_DeletedState.htm" />
   <HelpKINode Title="Hangfire.States.ElectStateContext class" Url="html/T_Hangfire_States_ElectStateContext.htm" />
   <HelpKINode Title="Hangfire.States.EnqueuedState class" Url="html/T_Hangfire_States_EnqueuedState.htm" />
   <HelpKINode Title="Hangfire.States.FailedState class" Url="html/T_Hangfire_States_FailedState.htm" />
   <HelpKINode Title="Hangfire.States.IApplyStateFilter interface" Url="html/T_Hangfire_States_IApplyStateFilter.htm" />
+  <HelpKINode Title="Hangfire.States.IBackgroundJobStateChanger interface" Url="html/T_Hangfire_States_IBackgroundJobStateChanger.htm" />
   <HelpKINode Title="Hangfire.States.IElectStateFilter interface" Url="html/T_Hangfire_States_IElectStateFilter.htm" />
   <HelpKINode Title="Hangfire.States.IState interface" Url="html/T_Hangfire_States_IState.htm" />
-  <HelpKINode Title="Hangfire.States.IStateChangeProcess interface" Url="html/T_Hangfire_States_IStateChangeProcess.htm" />
   <HelpKINode Title="Hangfire.States.IStateHandler interface" Url="html/T_Hangfire_States_IStateHandler.htm" />
   <HelpKINode Title="Hangfire.States.IStateMachine interface" Url="html/T_Hangfire_States_IStateMachine.htm" />
   <HelpKINode Title="Hangfire.States.ProcessingState class" Url="html/T_Hangfire_States_ProcessingState.htm" />
   <HelpKINode Title="Hangfire.States.ScheduledState class" Url="html/T_Hangfire_States_ScheduledState.htm" />
   <HelpKINode Title="Hangfire.States.StateChangeContext class" Url="html/T_Hangfire_States_StateChangeContext.htm" />
-  <HelpKINode Title="Hangfire.States.StateChangeProcess class" Url="html/T_Hangfire_States_StateChangeProcess.htm" />
-  <HelpKINode Title="Hangfire.States.StateContext class" Url="html/T_Hangfire_States_StateContext.htm" />
   <HelpKINode Title="Hangfire.States.StateHandlerCollection class" Url="html/T_Hangfire_States_StateHandlerCollection.htm" />
   <HelpKINode Title="Hangfire.States.StateMachine class" Url="html/T_Hangfire_States_StateMachine.htm" />
   <HelpKINode Title="Hangfire.States.SucceededState class" Url="html/T_Hangfire_States_SucceededState.htm" />
@@ -1103,7 +1127,10 @@
     <HelpKINode Title="JobStorageConnection.Heartbeat Method " Url="html/M_Hangfire_Storage_JobStorageConnection_Heartbeat.htm" />
   </HelpKINode>
   <HelpKINode Title="Heartbeat property" Url="html/P_Hangfire_Storage_Monitoring_ServerDto_Heartbeat.htm" />
-  <HelpKINode Title="HeartbeatInterval property" Url="html/P_Hangfire_BackgroundJobServerOptions_HeartbeatInterval.htm" />
+  <HelpKINode Title="HeartbeatInterval property">
+    <HelpKINode Title="BackgroundJobServerOptions.HeartbeatInterval Property " Url="html/P_Hangfire_BackgroundJobServerOptions_HeartbeatInterval.htm" />
+    <HelpKINode Title="BackgroundProcessingServerOptions.HeartbeatInterval Property " Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_HeartbeatInterval.htm" />
+  </HelpKINode>
   <HelpKINode Title="Highlighted property" Url="html/P_Hangfire_Dashboard_Metric_Highlighted.htm" />
   <HelpKINode Title="History property" Url="html/P_Hangfire_Storage_Monitoring_JobDetailsDto_History.htm" />
   <HelpKINode Title="Home method" Url="html/M_Hangfire_Dashboard_UrlHelper_Home.htm" />
@@ -1175,24 +1202,30 @@
   </HelpKINode>
   <HelpKINode Title="IBackgroundJobClient.ChangeState method" Url="html/M_Hangfire_IBackgroundJobClient_ChangeState.htm" />
   <HelpKINode Title="IBackgroundJobClient.Create method" Url="html/M_Hangfire_IBackgroundJobClient_Create.htm" />
+  <HelpKINode Title="IBackgroundJobFactory interface">
+    <HelpKINode Title="IBackgroundJobFactory Interface" Url="html/T_Hangfire_Client_IBackgroundJobFactory.htm" />
+    <HelpKINode Title="about IBackgroundJobFactory interface" Url="html/T_Hangfire_Client_IBackgroundJobFactory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Client_IBackgroundJobFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBackgroundJobFactory.Create method" Url="html/M_Hangfire_Client_IBackgroundJobFactory_Create.htm" />
+  <HelpKINode Title="IBackgroundJobPerformer interface">
+    <HelpKINode Title="IBackgroundJobPerformer Interface" Url="html/T_Hangfire_Server_IBackgroundJobPerformer.htm" />
+    <HelpKINode Title="about IBackgroundJobPerformer interface" Url="html/T_Hangfire_Server_IBackgroundJobPerformer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_IBackgroundJobPerformer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBackgroundJobPerformer.Perform method" Url="html/M_Hangfire_Server_IBackgroundJobPerformer_Perform.htm" />
+  <HelpKINode Title="IBackgroundJobStateChanger interface">
+    <HelpKINode Title="IBackgroundJobStateChanger Interface" Url="html/T_Hangfire_States_IBackgroundJobStateChanger.htm" />
+    <HelpKINode Title="about IBackgroundJobStateChanger interface" Url="html/T_Hangfire_States_IBackgroundJobStateChanger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_States_IBackgroundJobStateChanger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBackgroundJobStateChanger.ChangeState method" Url="html/M_Hangfire_States_IBackgroundJobStateChanger_ChangeState.htm" />
   <HelpKINode Title="IBackgroundProcess interface">
     <HelpKINode Title="IBackgroundProcess Interface" Url="html/T_Hangfire_Server_IBackgroundProcess.htm" />
     <HelpKINode Title="about IBackgroundProcess interface" Url="html/T_Hangfire_Server_IBackgroundProcess.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_IBackgroundProcess.htm" />
   </HelpKINode>
   <HelpKINode Title="IBackgroundProcess.Execute method" Url="html/M_Hangfire_Server_IBackgroundProcess_Execute.htm" />
-  <HelpKINode Title="IBootstrapperConfiguration interface">
-    <HelpKINode Title="IBootstrapperConfiguration Interface" Url="html/T_Hangfire_IBootstrapperConfiguration.htm" />
-    <HelpKINode Title="about IBootstrapperConfiguration interface" Url="html/T_Hangfire_IBootstrapperConfiguration.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_IBootstrapperConfiguration.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IBootstrapperConfiguration.UseActivator method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseActivator.htm" />
-  <HelpKINode Title="IBootstrapperConfiguration.UseAppPath method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseAppPath.htm" />
-  <HelpKINode Title="IBootstrapperConfiguration.UseAuthorizationFilters method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseAuthorizationFilters.htm" />
-  <HelpKINode Title="IBootstrapperConfiguration.UseDashboardPath method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseDashboardPath.htm" />
-  <HelpKINode Title="IBootstrapperConfiguration.UseFilter method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseFilter.htm" />
-  <HelpKINode Title="IBootstrapperConfiguration.UseServer method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseServer.htm" />
-  <HelpKINode Title="IBootstrapperConfiguration.UseStorage method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseStorage.htm" />
   <HelpKINode Title="IClientExceptionFilter interface">
     <HelpKINode Title="IClientExceptionFilter Interface" Url="html/T_Hangfire_Client_IClientExceptionFilter.htm" />
     <HelpKINode Title="about IClientExceptionFilter interface" Url="html/T_Hangfire_Client_IClientExceptionFilter.htm" />
@@ -1258,12 +1291,6 @@
   </HelpKINode>
   <HelpKINode Title="IJobCancellationToken.ShutdownToken property" Url="html/P_Hangfire_IJobCancellationToken_ShutdownToken.htm" />
   <HelpKINode Title="IJobCancellationToken.ThrowIfCancellationRequested method" Url="html/M_Hangfire_IJobCancellationToken_ThrowIfCancellationRequested.htm" />
-  <HelpKINode Title="IJobCreationProcess interface">
-    <HelpKINode Title="IJobCreationProcess Interface" Url="html/T_Hangfire_Client_IJobCreationProcess.htm" />
-    <HelpKINode Title="about IJobCreationProcess interface" Url="html/T_Hangfire_Client_IJobCreationProcess.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Client_IJobCreationProcess.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IJobCreationProcess.Run method" Url="html/M_Hangfire_Client_IJobCreationProcess_Run.htm" />
   <HelpKINode Title="IJobFilter interface">
     <HelpKINode Title="IJobFilter Interface" Url="html/T_Hangfire_Common_IJobFilter.htm" />
     <HelpKINode Title="about IJobFilter interface" Url="html/T_Hangfire_Common_IJobFilter.htm" />
@@ -1277,12 +1304,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Common_IJobFilterProvider.htm" />
   </HelpKINode>
   <HelpKINode Title="IJobFilterProvider.GetFilters method" Url="html/M_Hangfire_Common_IJobFilterProvider_GetFilters.htm" />
-  <HelpKINode Title="IJobPerformanceProcess interface">
-    <HelpKINode Title="IJobPerformanceProcess Interface" Url="html/T_Hangfire_Server_IJobPerformanceProcess.htm" />
-    <HelpKINode Title="about IJobPerformanceProcess interface" Url="html/T_Hangfire_Server_IJobPerformanceProcess.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_IJobPerformanceProcess.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IJobPerformanceProcess.Run method" Url="html/M_Hangfire_Server_IJobPerformanceProcess_Run.htm" />
   <HelpKINode Title="ILog interface">
     <HelpKINode Title="ILog Interface" Url="html/T_Hangfire_Logging_ILog.htm" />
     <HelpKINode Title="about ILog interface" Url="html/T_Hangfire_Logging_ILog.htm" />
@@ -1386,12 +1407,6 @@
   <HelpKINode Title="IRequestDispatcher.Dispatch method" Url="html/M_Hangfire_Dashboard_IRequestDispatcher_Dispatch.htm" />
   <HelpKINode Title="IsDebugEnabled method" Url="html/M_Hangfire_Logging_LogExtensions_IsDebugEnabled.htm" />
   <HelpKINode Title="IsErrorEnabled method" Url="html/M_Hangfire_Logging_LogExtensions_IsErrorEnabled.htm" />
-  <HelpKINode Title="IServerComponent interface">
-    <HelpKINode Title="IServerComponent Interface" Url="html/T_Hangfire_Server_IServerComponent.htm" />
-    <HelpKINode Title="about IServerComponent interface" Url="html/T_Hangfire_Server_IServerComponent.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_IServerComponent.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IServerComponent.Execute method" Url="html/M_Hangfire_Server_IServerComponent_Execute.htm" />
   <HelpKINode Title="IServerExceptionFilter interface">
     <HelpKINode Title="IServerExceptionFilter Interface" Url="html/T_Hangfire_Server_IServerExceptionFilter.htm" />
     <HelpKINode Title="about IServerExceptionFilter interface" Url="html/T_Hangfire_Server_IServerExceptionFilter.htm" />
@@ -1405,10 +1420,6 @@
   </HelpKINode>
   <HelpKINode Title="IServerFilter.OnPerformed method" Url="html/M_Hangfire_Server_IServerFilter_OnPerformed.htm" />
   <HelpKINode Title="IServerFilter.OnPerforming method" Url="html/M_Hangfire_Server_IServerFilter_OnPerforming.htm" />
-  <HelpKINode Title="IServerProcess interface">
-    <HelpKINode Title="IServerProcess Interface" Url="html/T_Hangfire_Server_IServerProcess.htm" />
-    <HelpKINode Title="about IServerProcess interface" Url="html/T_Hangfire_Server_IServerProcess.htm" />
-  </HelpKINode>
   <HelpKINode Title="IsFatalEnabled method" Url="html/M_Hangfire_Logging_LogExtensions_IsFatalEnabled.htm" />
   <HelpKINode Title="IsFinal property">
     <HelpKINode Title="AwaitingState.IsFinal Property " Url="html/P_Hangfire_States_AwaitingState_IsFinal.htm" />
@@ -1440,12 +1451,6 @@
   <HelpKINode Title="IState.Name property" Url="html/P_Hangfire_States_IState_Name.htm" />
   <HelpKINode Title="IState.Reason property" Url="html/P_Hangfire_States_IState_Reason.htm" />
   <HelpKINode Title="IState.SerializeData method" Url="html/M_Hangfire_States_IState_SerializeData.htm" />
-  <HelpKINode Title="IStateChangeProcess interface">
-    <HelpKINode Title="IStateChangeProcess Interface" Url="html/T_Hangfire_States_IStateChangeProcess.htm" />
-    <HelpKINode Title="about IStateChangeProcess interface" Url="html/T_Hangfire_States_IStateChangeProcess.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_States_IStateChangeProcess.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IStateChangeProcess.ChangeState method" Url="html/M_Hangfire_States_IStateChangeProcess_ChangeState.htm" />
   <HelpKINode Title="IStateHandler interface">
     <HelpKINode Title="IStateHandler Interface" Url="html/T_Hangfire_States_IStateHandler.htm" />
     <HelpKINode Title="about IStateHandler interface" Url="html/T_Hangfire_States_IStateHandler.htm" />
@@ -1532,14 +1537,12 @@
     <HelpKINode Title="ProcessingJobDto.Job Property " Url="html/P_Hangfire_Storage_Monitoring_ProcessingJobDto_Job.htm" />
     <HelpKINode Title="RecurringJobDto.Job Property " Url="html/P_Hangfire_Storage_RecurringJobDto_Job.htm" />
     <HelpKINode Title="ScheduledJobDto.Job Property " Url="html/P_Hangfire_Storage_Monitoring_ScheduledJobDto_Job.htm" />
-    <HelpKINode Title="StateContext.Job Property " Url="html/P_Hangfire_States_StateContext_Job.htm" />
     <HelpKINode Title="SucceededJobDto.Job Property " Url="html/P_Hangfire_Storage_Monitoring_SucceededJobDto_Job.htm" />
   </HelpKINode>
-  <HelpKINode Title="Job.Arguments property" Url="html/P_Hangfire_Common_Job_Arguments.htm" />
+  <HelpKINode Title="Job.Args property" Url="html/P_Hangfire_Common_Job_Args.htm" />
   <HelpKINode Title="Job.FromExpression method" Url="html/Overload_Hangfire_Common_Job_FromExpression.htm" />
   <HelpKINode Title="Job.Job constructor" Url="html/Overload_Hangfire_Common_Job__ctor.htm" />
   <HelpKINode Title="Job.Method property" Url="html/P_Hangfire_Common_Job_Method.htm" />
-  <HelpKINode Title="Job.Perform method" Url="html/M_Hangfire_Common_Job_Perform.htm" />
   <HelpKINode Title="Job.ToString method" Url="html/M_Hangfire_Common_Job_ToString.htm" />
   <HelpKINode Title="Job.Type property" Url="html/P_Hangfire_Common_Job_Type.htm" />
   <HelpKINode Title="JobAbortedException class">
@@ -1584,14 +1587,6 @@
   <HelpKINode Title="JobCancellationToken.ShutdownToken property" Url="html/P_Hangfire_JobCancellationToken_ShutdownToken.htm" />
   <HelpKINode Title="JobCancellationToken.ThrowIfCancellationRequested method" Url="html/M_Hangfire_JobCancellationToken_ThrowIfCancellationRequested.htm" />
   <HelpKINode Title="JobContinuationOptions enumeration" Url="html/T_Hangfire_JobContinuationOptions.htm" />
-  <HelpKINode Title="JobCreationProcess class">
-    <HelpKINode Title="JobCreationProcess Class" Url="html/T_Hangfire_Client_JobCreationProcess.htm" />
-    <HelpKINode Title="about JobCreationProcess class" Url="html/T_Hangfire_Client_JobCreationProcess.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Client_JobCreationProcess__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Client_JobCreationProcess.htm" />
-  </HelpKINode>
-  <HelpKINode Title="JobCreationProcess.JobCreationProcess constructor" Url="html/Overload_Hangfire_Client_JobCreationProcess__ctor.htm" />
-  <HelpKINode Title="JobCreationProcess.Run method" Url="html/M_Hangfire_Client_JobCreationProcess_Run.htm" />
   <HelpKINode Title="JobData class">
     <HelpKINode Title="JobData Class" Url="html/T_Hangfire_Storage_JobData.htm" />
     <HelpKINode Title="about JobData class" Url="html/T_Hangfire_Storage_JobData.htm" />
@@ -1714,7 +1709,6 @@
     <HelpKINode Title="CreatedContext.JobId Property " Url="html/P_Hangfire_Client_CreatedContext_JobId.htm" />
     <HelpKINode Title="IFetchedJob.JobId Property " Url="html/P_Hangfire_Storage_IFetchedJob_JobId.htm" />
     <HelpKINode Title="PerformContext.JobId Property " Url="html/P_Hangfire_Server_PerformContext_JobId.htm" />
-    <HelpKINode Title="StateContext.JobId Property " Url="html/P_Hangfire_States_StateContext_JobId.htm" />
   </HelpKINode>
   <HelpKINode Title="JobIdLink method" Url="html/M_Hangfire_Dashboard_HtmlHelper_JobIdLink.htm" />
   <HelpKINode Title="JobList(Of TDto) class">
@@ -1743,14 +1737,6 @@
     <HelpKINode Title="constructor" Url="html/M_Hangfire_Server_JobPerformanceException__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="JobPerformanceException.JobPerformanceException constructor" Url="html/M_Hangfire_Server_JobPerformanceException__ctor.htm" />
-  <HelpKINode Title="JobPerformanceProcess class">
-    <HelpKINode Title="JobPerformanceProcess Class" Url="html/T_Hangfire_Server_JobPerformanceProcess.htm" />
-    <HelpKINode Title="about JobPerformanceProcess class" Url="html/T_Hangfire_Server_JobPerformanceProcess.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_JobPerformanceProcess__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_JobPerformanceProcess.htm" />
-  </HelpKINode>
-  <HelpKINode Title="JobPerformanceProcess.JobPerformanceProcess constructor" Url="html/Overload_Hangfire_Server_JobPerformanceProcess__ctor.htm" />
-  <HelpKINode Title="JobPerformanceProcess.Run method" Url="html/M_Hangfire_Server_JobPerformanceProcess_Run.htm" />
   <HelpKINode Title="JobsSidebar method" Url="html/M_Hangfire_Dashboard_HtmlHelper_JobsSidebar.htm" />
   <HelpKINode Title="JobsSidebarMenu class">
     <HelpKINode Title="JobsSidebarMenu Class" Url="html/T_Hangfire_Dashboard_JobsSidebarMenu.htm" />
@@ -1940,7 +1926,6 @@
   <HelpKINode Title="LoupeLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider_IsLoggerAvailable.htm" />
   <HelpKINode Title="LoupeLogProvider.LoupeLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_LoupeLogProvider__ctor.htm" />
   <HelpKINode Title="LoupeLogProvider.ProviderIsAvailableOverride property" Url="html/P_Hangfire_Logging_LogProviders_LoupeLogProvider_ProviderIsAvailableOverride.htm" />
-  <HelpKINode Title="MapHangfireDashboard method" Url="html/Overload_Hangfire_Dashboard_DashboardOwinExtensions_MapHangfireDashboard.htm" />
   <HelpKINode Title="MeansImplicitUseAttribute class">
     <HelpKINode Title="MeansImplicitUseAttribute Class" Url="html/T_Hangfire_Annotations_MeansImplicitUseAttribute.htm" />
     <HelpKINode Title="about MeansImplicitUseAttribute class" Url="html/T_Hangfire_Annotations_MeansImplicitUseAttribute.htm" />
@@ -2103,12 +2088,6 @@
     <HelpKINode Title="JobFilter.Order Property " Url="html/P_Hangfire_Common_JobFilter_Order.htm" />
     <HelpKINode Title="JobFilterAttribute.Order Property " Url="html/P_Hangfire_Common_JobFilterAttribute_Order.htm" />
   </HelpKINode>
-  <HelpKINode Title="OwinBootstrapper class">
-    <HelpKINode Title="OwinBootstrapper Class" Url="html/T_Hangfire_OwinBootstrapper.htm" />
-    <HelpKINode Title="about OwinBootstrapper class" Url="html/T_Hangfire_OwinBootstrapper.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_OwinBootstrapper.htm" />
-  </HelpKINode>
-  <HelpKINode Title="OwinBootstrapper.UseHangfire method" Url="html/M_Hangfire_OwinBootstrapper_UseHangfire.htm" />
   <HelpKINode Title="OwinEnvironment property" Url="html/P_Hangfire_Dashboard_RequestDispatcherContext_OwinEnvironment.htm" />
   <HelpKINode Title="Pager class">
     <HelpKINode Title="Pager Class" Url="html/T_Hangfire_Dashboard_Pager.htm" />
@@ -2135,7 +2114,10 @@
   </HelpKINode>
   <HelpKINode Title="ParameterTypes property" Url="html/P_Hangfire_Storage_InvocationData_ParameterTypes.htm" />
   <HelpKINode Title="ParentId property" Url="html/P_Hangfire_States_AwaitingState_ParentId.htm" />
-  <HelpKINode Title="Perform method" Url="html/M_Hangfire_Common_Job_Perform.htm" />
+  <HelpKINode Title="Perform method">
+    <HelpKINode Title="BackgroundJobPerformer.Perform Method " Url="html/M_Hangfire_Server_BackgroundJobPerformer_Perform.htm" />
+    <HelpKINode Title="IBackgroundJobPerformer.Perform Method " Url="html/M_Hangfire_Server_IBackgroundJobPerformer_Perform.htm" />
+  </HelpKINode>
   <HelpKINode Title="PerformanceDuration property" Url="html/P_Hangfire_States_SucceededState_PerformanceDuration.htm" />
   <HelpKINode Title="PerformContext class">
     <HelpKINode Title="PerformContext Class" Url="html/T_Hangfire_Server_PerformContext.htm" />
@@ -2430,13 +2412,6 @@
   <HelpKINode Title="RouteCollectionExtensions.AddRazorPage method" Url="html/M_Hangfire_Dashboard_RouteCollectionExtensions_AddRazorPage.htm" />
   <HelpKINode Title="RouteCollectionExtensions.AddRecurringBatchCommand method" Url="html/M_Hangfire_Dashboard_RouteCollectionExtensions_AddRecurringBatchCommand.htm" />
   <HelpKINode Title="Routes property" Url="html/P_Hangfire_Dashboard_DashboardRoutes_Routes.htm" />
-  <HelpKINode Title="Run method">
-    <HelpKINode Title="IJobCreationProcess.Run Method " Url="html/M_Hangfire_Client_IJobCreationProcess_Run.htm" />
-    <HelpKINode Title="IJobPerformanceProcess.Run Method " Url="html/M_Hangfire_Server_IJobPerformanceProcess_Run.htm" />
-    <HelpKINode Title="JobCreationProcess.Run Method " Url="html/M_Hangfire_Client_JobCreationProcess_Run.htm" />
-    <HelpKINode Title="JobPerformanceProcess.Run Method " Url="html/M_Hangfire_Server_JobPerformanceProcess_Run.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RunHangfireServer method" Url="html/M_Hangfire_Server_ServerOwinExtensions_RunHangfireServer.htm" />
   <HelpKINode Title="Schedule method">
     <HelpKINode Title="BackgroundJob.Schedule Method " Url="html/Overload_Hangfire_BackgroundJob_Schedule.htm" />
     <HelpKINode Title="BackgroundJobClientExtensions.Schedule Method " Url="html/Overload_Hangfire_BackgroundJobClientExtensions_Schedule.htm" />
@@ -2477,17 +2452,6 @@
   <HelpKINode Title="ScheduledState.ScheduledState constructor" Url="html/Overload_Hangfire_States_ScheduledState__ctor.htm" />
   <HelpKINode Title="ScheduledState.SerializeData method" Url="html/M_Hangfire_States_ScheduledState_SerializeData.htm" />
   <HelpKINode Title="ScheduledState.StateName field" Url="html/F_Hangfire_States_ScheduledState_StateName.htm" />
-  <HelpKINode Title="SchedulePoller class">
-    <HelpKINode Title="SchedulePoller Class" Url="html/T_Hangfire_Server_SchedulePoller.htm" />
-    <HelpKINode Title="about SchedulePoller class" Url="html/T_Hangfire_Server_SchedulePoller.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_SchedulePoller__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_Hangfire_Server_SchedulePoller.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_SchedulePoller.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SchedulePoller.DefaultPollingInterval field" Url="html/F_Hangfire_Server_SchedulePoller_DefaultPollingInterval.htm" />
-  <HelpKINode Title="SchedulePoller.Execute method" Url="html/M_Hangfire_Server_SchedulePoller_Execute.htm" />
-  <HelpKINode Title="SchedulePoller.SchedulePoller constructor" Url="html/Overload_Hangfire_Server_SchedulePoller__ctor.htm" />
-  <HelpKINode Title="SchedulePoller.ToString method" Url="html/M_Hangfire_Server_SchedulePoller_ToString.htm" />
   <HelpKINode Title="SchedulePollingInterval property" Url="html/P_Hangfire_BackgroundJobServerOptions_SchedulePollingInterval.htm" />
   <HelpKINode Title="Scope property" Url="html/P_Hangfire_Common_JobFilter_Scope.htm" />
   <HelpKINode Title="Serialize method" Url="html/M_Hangfire_Storage_InvocationData_Serialize.htm" />
@@ -2513,6 +2477,10 @@
   <HelpKINode Title="SerilogLogProvider.IsLoggerAvailable method" Url="html/M_Hangfire_Logging_LogProviders_SerilogLogProvider_IsLoggerAvailable.htm" />
   <HelpKINode Title="SerilogLogProvider.ProviderIsAvailableOverride property" Url="html/P_Hangfire_Logging_LogProviders_SerilogLogProvider_ProviderIsAvailableOverride.htm" />
   <HelpKINode Title="SerilogLogProvider.SerilogLogProvider constructor" Url="html/M_Hangfire_Logging_LogProviders_SerilogLogProvider__ctor.htm" />
+  <HelpKINode Title="ServerCheckInterval property">
+    <HelpKINode Title="BackgroundJobServerOptions.ServerCheckInterval Property " Url="html/P_Hangfire_BackgroundJobServerOptions_ServerCheckInterval.htm" />
+    <HelpKINode Title="BackgroundProcessingServerOptions.ServerCheckInterval Property " Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_ServerCheckInterval.htm" />
+  </HelpKINode>
   <HelpKINode Title="ServerContext class">
     <HelpKINode Title="ServerContext Class" Url="html/T_Hangfire_Server_ServerContext.htm" />
     <HelpKINode Title="about ServerContext class" Url="html/T_Hangfire_Server_ServerContext.htm" />
@@ -2543,51 +2511,19 @@
   </HelpKINode>
   <HelpKINode Title="ServerExceptionContext.Exception property" Url="html/P_Hangfire_Server_ServerExceptionContext_Exception.htm" />
   <HelpKINode Title="ServerExceptionContext.ExceptionHandled property" Url="html/P_Hangfire_Server_ServerExceptionContext_ExceptionHandled.htm" />
-  <HelpKINode Title="ServerHeartbeat class">
-    <HelpKINode Title="ServerHeartbeat Class" Url="html/T_Hangfire_Server_ServerHeartbeat.htm" />
-    <HelpKINode Title="about ServerHeartbeat class" Url="html/T_Hangfire_Server_ServerHeartbeat.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_ServerHeartbeat__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_Hangfire_Server_ServerHeartbeat.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_ServerHeartbeat.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ServerHeartbeat.DefaultHeartbeatInterval field" Url="html/F_Hangfire_Server_ServerHeartbeat_DefaultHeartbeatInterval.htm" />
-  <HelpKINode Title="ServerHeartbeat.Execute method" Url="html/M_Hangfire_Server_ServerHeartbeat_Execute.htm" />
-  <HelpKINode Title="ServerHeartbeat.ServerHeartbeat constructor" Url="html/Overload_Hangfire_Server_ServerHeartbeat__ctor.htm" />
-  <HelpKINode Title="ServerHeartbeat.ToString method" Url="html/M_Hangfire_Server_ServerHeartbeat_ToString.htm" />
   <HelpKINode Title="ServerId property">
     <HelpKINode Title="BackgroundProcessContext.ServerId Property " Url="html/P_Hangfire_Server_BackgroundProcessContext_ServerId.htm" />
     <HelpKINode Title="ProcessingJobDto.ServerId Property " Url="html/P_Hangfire_Storage_Monitoring_ProcessingJobDto_ServerId.htm" />
     <HelpKINode Title="ProcessingState.ServerId Property " Url="html/P_Hangfire_States_ProcessingState_ServerId.htm" />
   </HelpKINode>
   <HelpKINode Title="ServerName property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerName.htm" />
-  <HelpKINode Title="ServerOwinExtensions class">
-    <HelpKINode Title="ServerOwinExtensions Class" Url="html/T_Hangfire_Server_ServerOwinExtensions.htm" />
-    <HelpKINode Title="about ServerOwinExtensions class" Url="html/T_Hangfire_Server_ServerOwinExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_ServerOwinExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ServerOwinExtensions.RunHangfireServer method" Url="html/M_Hangfire_Server_ServerOwinExtensions_RunHangfireServer.htm" />
   <HelpKINode Title="Servers method" Url="html/M_Hangfire_Storage_IMonitoringApi_Servers.htm" />
   <HelpKINode Title="Servers property" Url="html/P_Hangfire_Storage_Monitoring_StatisticsDto_Servers.htm" />
-  <HelpKINode Title="ServerTimeout property" Url="html/P_Hangfire_Server_ServerWatchdogOptions_ServerTimeout.htm" />
-  <HelpKINode Title="ServerWatchdog class">
-    <HelpKINode Title="ServerWatchdog Class" Url="html/T_Hangfire_Server_ServerWatchdog.htm" />
-    <HelpKINode Title="about ServerWatchdog class" Url="html/T_Hangfire_Server_ServerWatchdog.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_Server_ServerWatchdog__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_Server_ServerWatchdog.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ServerWatchdog.Execute method" Url="html/M_Hangfire_Server_ServerWatchdog_Execute.htm" />
-  <HelpKINode Title="ServerWatchdog.ServerWatchdog constructor" Url="html/Overload_Hangfire_Server_ServerWatchdog__ctor.htm" />
-  <HelpKINode Title="ServerWatchdog.ToString method" Url="html/M_Hangfire_Server_ServerWatchdog_ToString.htm" />
-  <HelpKINode Title="ServerWatchdogOptions class">
-    <HelpKINode Title="ServerWatchdogOptions Class" Url="html/T_Hangfire_Server_ServerWatchdogOptions.htm" />
-    <HelpKINode Title="about ServerWatchdogOptions class" Url="html/T_Hangfire_Server_ServerWatchdogOptions.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_Server_ServerWatchdogOptions__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_Server_ServerWatchdogOptions.htm" />
+  <HelpKINode Title="ServerTimeout property">
+    <HelpKINode Title="BackgroundJobServerOptions.ServerTimeout Property " Url="html/P_Hangfire_BackgroundJobServerOptions_ServerTimeout.htm" />
+    <HelpKINode Title="BackgroundProcessingServerOptions.ServerTimeout Property " Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_ServerTimeout.htm" />
   </HelpKINode>
   <HelpKINode Title="ServerWatchdogOptions property" Url="html/P_Hangfire_BackgroundJobServerOptions_ServerWatchdogOptions.htm" />
-  <HelpKINode Title="ServerWatchdogOptions.CheckInterval property" Url="html/P_Hangfire_Server_ServerWatchdogOptions_CheckInterval.htm" />
-  <HelpKINode Title="ServerWatchdogOptions.ServerTimeout property" Url="html/P_Hangfire_Server_ServerWatchdogOptions_ServerTimeout.htm" />
-  <HelpKINode Title="ServerWatchdogOptions.ServerWatchdogOptions constructor" Url="html/M_Hangfire_Server_ServerWatchdogOptions__ctor.htm" />
   <HelpKINode Title="SetCurrentLogProvider method" Url="html/M_Hangfire_Logging_LogProvider_SetCurrentLogProvider.htm" />
   <HelpKINode Title="SetJobParameter method">
     <HelpKINode Title="CreatedContext.SetJobParameter Method " Url="html/M_Hangfire_Client_CreatedContext_SetJobParameter.htm" />
@@ -2611,7 +2547,7 @@
   <HelpKINode Title="SetSerializerSettings method" Url="html/M_Hangfire_Common_JobHelper_SetSerializerSettings.htm" />
   <HelpKINode Title="ShutdownTimeout property">
     <HelpKINode Title="BackgroundJobServerOptions.ShutdownTimeout Property " Url="html/P_Hangfire_BackgroundJobServerOptions_ShutdownTimeout.htm" />
-    <HelpKINode Title="BackgroundServer.ShutdownTimeout Property " Url="html/P_Hangfire_Server_BackgroundServer_ShutdownTimeout.htm" />
+    <HelpKINode Title="BackgroundProcessingServerOptions.ShutdownTimeout Property " Url="html/P_Hangfire_Server_BackgroundProcessingServerOptions_ShutdownTimeout.htm" />
   </HelpKINode>
   <HelpKINode Title="ShutdownToken property">
     <HelpKINode Title="IJobCancellationToken.ShutdownToken Property " Url="html/P_Hangfire_IJobCancellationToken_ShutdownToken.htm" />
@@ -2645,25 +2581,6 @@
   <HelpKINode Title="StateChangeContext.NewState property" Url="html/P_Hangfire_States_StateChangeContext_NewState.htm" />
   <HelpKINode Title="StateChangeContext.StateChangeContext constructor" Url="html/Overload_Hangfire_States_StateChangeContext__ctor.htm" />
   <HelpKINode Title="StateChangeContext.Storage property" Url="html/P_Hangfire_States_StateChangeContext_Storage.htm" />
-  <HelpKINode Title="StateChangeProcess class">
-    <HelpKINode Title="StateChangeProcess Class" Url="html/T_Hangfire_States_StateChangeProcess.htm" />
-    <HelpKINode Title="about StateChangeProcess class" Url="html/T_Hangfire_States_StateChangeProcess.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_Hangfire_States_StateChangeProcess__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Hangfire_States_StateChangeProcess.htm" />
-  </HelpKINode>
-  <HelpKINode Title="StateChangeProcess.ChangeState method" Url="html/M_Hangfire_States_StateChangeProcess_ChangeState.htm" />
-  <HelpKINode Title="StateChangeProcess.StateChangeProcess constructor" Url="html/Overload_Hangfire_States_StateChangeProcess__ctor.htm" />
-  <HelpKINode Title="StateContext class">
-    <HelpKINode Title="StateContext Class" Url="html/T_Hangfire_States_StateContext.htm" />
-    <HelpKINode Title="about StateContext class" Url="html/T_Hangfire_States_StateContext.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Hangfire_States_StateContext__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Hangfire_States_StateContext.htm" />
-  </HelpKINode>
-  <HelpKINode Title="StateContext.BackgroundJob property" Url="html/P_Hangfire_States_StateContext_BackgroundJob.htm" />
-  <HelpKINode Title="StateContext.CreatedAt property" Url="html/P_Hangfire_States_StateContext_CreatedAt.htm" />
-  <HelpKINode Title="StateContext.Job property" Url="html/P_Hangfire_States_StateContext_Job.htm" />
-  <HelpKINode Title="StateContext.JobId property" Url="html/P_Hangfire_States_StateContext_JobId.htm" />
-  <HelpKINode Title="StateContext.StateContext constructor" Url="html/M_Hangfire_States_StateContext__ctor.htm" />
   <HelpKINode Title="StateData class">
     <HelpKINode Title="StateData Class" Url="html/T_Hangfire_Storage_StateData.htm" />
     <HelpKINode Title="about StateData class" Url="html/T_Hangfire_Storage_StateData.htm" />
@@ -2828,14 +2745,12 @@
   <HelpKINode Title="ToHumanDuration method" Url="html/M_Hangfire_Dashboard_HtmlHelper_ToHumanDuration.htm" />
   <HelpKINode Title="ToJson method" Url="html/M_Hangfire_Common_JobHelper_ToJson.htm" />
   <HelpKINode Title="ToString method">
-    <HelpKINode Title="BackgroundServer.ToString Method " Url="html/M_Hangfire_Server_BackgroundServer_ToString.htm" />
+    <HelpKINode Title="BackgroundProcessingServer.ToString Method " Url="html/M_Hangfire_Server_BackgroundProcessingServer_ToString.htm" />
+    <HelpKINode Title="DelayedJobScheduler.ToString Method " Url="html/M_Hangfire_Server_DelayedJobScheduler_ToString.htm" />
     <HelpKINode Title="Job.ToString Method " Url="html/M_Hangfire_Common_Job_ToString.htm" />
     <HelpKINode Title="NonEscapedString.ToString Method " Url="html/M_Hangfire_Dashboard_NonEscapedString_ToString.htm" />
     <HelpKINode Title="RazorPage.ToString Method " Url="html/M_Hangfire_Dashboard_RazorPage_ToString.htm" />
     <HelpKINode Title="RecurringJobScheduler.ToString Method " Url="html/M_Hangfire_Server_RecurringJobScheduler_ToString.htm" />
-    <HelpKINode Title="SchedulePoller.ToString Method " Url="html/M_Hangfire_Server_SchedulePoller_ToString.htm" />
-    <HelpKINode Title="ServerHeartbeat.ToString Method " Url="html/M_Hangfire_Server_ServerHeartbeat_ToString.htm" />
-    <HelpKINode Title="ServerWatchdog.ToString Method " Url="html/M_Hangfire_Server_ServerWatchdog_ToString.htm" />
     <HelpKINode Title="Worker.ToString Method " Url="html/M_Hangfire_Server_Worker_ToString.htm" />
   </HelpKINode>
   <HelpKINode Title="TotalDuration property" Url="html/P_Hangfire_Storage_Monitoring_SucceededJobDto_TotalDuration.htm" />
@@ -2884,14 +2799,10 @@
   <HelpKINode Title="UrlHelper.UrlHelper constructor" Url="html/M_Hangfire_Dashboard_UrlHelper__ctor.htm" />
   <HelpKINode Title="Use(Of T) method" Url="html/M_Hangfire_GlobalConfigurationExtensions_Use__1.htm" />
   <HelpKINode Title="Use&lt;T&gt; method" Url="html/M_Hangfire_GlobalConfigurationExtensions_Use__1.htm" />
-  <HelpKINode Title="UseActivator method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseActivator.htm" />
   <HelpKINode Title="UseActivator(Of TActivator) method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseActivator__1.htm" />
   <HelpKINode Title="UseActivator&lt;TActivator&gt; method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseActivator__1.htm" />
-  <HelpKINode Title="UseAppPath method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseAppPath.htm" />
-  <HelpKINode Title="UseAuthorizationFilters method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseAuthorizationFilters.htm" />
   <HelpKINode Title="UseColouredConsoleLogProvider method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseColouredConsoleLogProvider.htm" />
   <HelpKINode Title="UseDashboardMetric method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseDashboardMetric.htm" />
-  <HelpKINode Title="UseDashboardPath method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseDashboardPath.htm" />
   <HelpKINode Title="UsedImplicitlyAttribute class">
     <HelpKINode Title="UsedImplicitlyAttribute Class" Url="html/T_Hangfire_Annotations_UsedImplicitlyAttribute.htm" />
     <HelpKINode Title="about UsedImplicitlyAttribute class" Url="html/T_Hangfire_Annotations_UsedImplicitlyAttribute.htm" />
@@ -2903,10 +2814,8 @@
   <HelpKINode Title="UsedImplicitlyAttribute.UseKindFlags property" Url="html/P_Hangfire_Annotations_UsedImplicitlyAttribute_UseKindFlags.htm" />
   <HelpKINode Title="UseElmahLogProvider method" Url="html/Overload_Hangfire_GlobalConfigurationExtensions_UseElmahLogProvider.htm" />
   <HelpKINode Title="UseEntLibLogProvider method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseEntLibLogProvider.htm" />
-  <HelpKINode Title="UseFilter method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseFilter.htm" />
   <HelpKINode Title="UseFilter(Of TFilter) method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseFilter__1.htm" />
   <HelpKINode Title="UseFilter&lt;TFilter&gt; method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseFilter__1.htm" />
-  <HelpKINode Title="UseHangfire method" Url="html/M_Hangfire_OwinBootstrapper_UseHangfire.htm" />
   <HelpKINode Title="UseHangfireDashboard method">
     <HelpKINode Title="AppBuilderExtensions.UseHangfireDashboard Method " Url="html/Overload_Hangfire_AppBuilderExtensions_UseHangfireDashboard.htm" />
     <HelpKINode Title="MiddlewareExtensions.UseHangfireDashboard Method " Url="html/Overload_Hangfire_Dashboard_MiddlewareExtensions_UseHangfireDashboard.htm" />
@@ -2922,11 +2831,6 @@
   <HelpKINode Title="UseLoupeLogProvider method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseLoupeLogProvider.htm" />
   <HelpKINode Title="UseNLogLogProvider method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseNLogLogProvider.htm" />
   <HelpKINode Title="UseSerilogLogProvider method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseSerilogLogProvider.htm" />
-  <HelpKINode Title="UseServer method">
-    <HelpKINode Title="BootstrapperConfigurationExtensions.UseServer Method " Url="html/Overload_Hangfire_BootstrapperConfigurationExtensions_UseServer.htm" />
-    <HelpKINode Title="IBootstrapperConfiguration.UseServer Method " Url="html/M_Hangfire_IBootstrapperConfiguration_UseServer.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UseStorage method" Url="html/M_Hangfire_IBootstrapperConfiguration_UseStorage.htm" />
   <HelpKINode Title="UseStorage(Of TStorage) method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseStorage__1.htm" />
   <HelpKINode Title="UseStorage&lt;TStorage&gt; method" Url="html/M_Hangfire_GlobalConfigurationExtensions_UseStorage__1.htm" />
   <HelpKINode Title="Value property" Url="html/P_Hangfire_Dashboard_Metric_Value.htm" />
@@ -2953,6 +2857,5 @@
   <HelpKINode Title="WorkerId property" Url="html/P_Hangfire_States_ProcessingState_WorkerId.htm" />
   <HelpKINode Title="WorkersCount property" Url="html/P_Hangfire_Storage_Monitoring_ServerDto_WorkersCount.htm" />
   <HelpKINode Title="WriteOptionsToLog method" Url="html/M_Hangfire_JobStorage_WriteOptionsToLog.htm" />
-  <HelpKINode Title="WriteToLog method" Url="html/M_Hangfire_BackgroundJobServerOptions_WriteToLog.htm" />
   <HelpKINode Title="Yearly method" Url="html/Overload_Hangfire_Cron_Yearly.htm" />
 </HelpKI>

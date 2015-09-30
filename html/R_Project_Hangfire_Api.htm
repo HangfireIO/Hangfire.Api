@@ -8,7 +8,7 @@
             </div></td></tr><tr><td><a href="N_Hangfire_Client.htm">Hangfire.Client</a></td><td><div class="summary">
             The <a href="N_Hangfire_Client.htm">Hangfire.Client</a> namespace contains types that allow you to
             customize the background job creation pipeline using the <a href="T_Hangfire_Client_IClientFilter.htm">IClientFilter</a>,
-            or define your own creation process by implementing the <a href="T_Hangfire_Client_IJobCreationProcess.htm">IJobCreationProcess</a>
+            or define your own creation process by implementing the <a href="T_Hangfire_Client_IBackgroundJobFactory.htm">IBackgroundJobFactory</a>
             interface.
             </div></td></tr><tr><td><a href="N_Hangfire_Common.htm">Hangfire.Common</a></td><td><div class="summary">
             The <a href="N_Hangfire_Common.htm">Hangfire.Common</a> namespace provides base types for background
@@ -26,7 +26,7 @@
             for background processing. You may use them to customize your processing pipeline
             by implementing the <a href="T_Hangfire_Server_IServerFilter.htm">IServerFilter</a> interface or define your own 
             continuously-running background processes by implementing the <a href="T_Hangfire_Server_IBackgroundProcess.htm">IBackgroundProcess</a> 
-            as well as create completely custom instances of <a href="T_Hangfire_Server_BackgroundServer.htm">BackgroundServer</a>.
+            as well as create completely custom instances of <a href="T_Hangfire_Server_BackgroundProcessingServer.htm">BackgroundProcessingServer</a>.
             </div></td></tr><tr><td><a href="N_Hangfire_States.htm">Hangfire.States</a></td><td><div class="summary">
             The <a href="N_Hangfire_States.htm">Hangfire.States</a> namespace contains types that describe
             background job states and the transitions between them. You can implement
