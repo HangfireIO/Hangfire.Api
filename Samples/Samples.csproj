@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="AppBuilderExtensions.cs" />
     <Compile Include="AutomaticRetry.cs" />
+    <Compile Include="Job.cs" />
     <Compile Include="States.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
