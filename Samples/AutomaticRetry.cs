@@ -21,7 +21,7 @@ namespace Samples
 
         #region Attempts Exceeded
         [AutomaticRetry(OnAttemptsExceeded = AttemptsExceededAction.Delete)]
-        public void DeleteWhenAttemptsExdeeded()
+        public void DeleteWhenAttemptsExceeded()
         {
         }
         #endregion
